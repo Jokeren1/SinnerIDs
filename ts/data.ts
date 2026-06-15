@@ -10,12 +10,12 @@ export const yiSangIDs: SinnerID[] = [
     { sinner: "Yi Sang", idName: "Blade Lineage Salsu", image: "YiSang/BL_YiSang.webp", rarity: "000" },
     { sinner: "Yi Sang", idName: "Effloresced E.G.O::SpiceBush", image: "YiSang/Spicebush_YiSang.webp", rarity: "000" },
     { sinner: "Yi Sang", idName: "Heishou Pack - Wu Branch Adept Yi Sang", image: "YiSang/Heishou_YiSang.webp", rarity: "000" },
-    { sinner: "Yi Sang", idName: "The House of Spiders - The Index Nursefather", image: "YiSang/Index_YiSang.webp", rarity: "000" },
+    { sinner: "Yi Sang", idName: "The House of Spiders: The Index Nursefather", image: "YiSang/Index_YiSang.webp", rarity: "000" },
     { sinner: "Yi Sang", idName: "Liu Assoc. South Section 3", image: "YiSang/LS3_YiSang.webp", rarity: "000" },
     { sinner: "Yi Sang", idName: "Lobotomy E.G.O::Solemn Lament", image: "YiSang/Solemn_YiSang.webp", rarity: "000" },
     { sinner: "Yi Sang", idName: "N Corp. E.G.O::Fell Bullet", image: "YiSang/Fell_YiSang.webp", rarity: "000" },
     { sinner: "Yi Sang", idName: "The Ring Pointillist Student", image: "YiSang/Ring_YiSang.webp", rarity: "000" },
-    { sinner: "Yi Sang", idName: "W Corp. L3 Cleanup Agent", image: "YiSang/WCorp_YiSang.webp", rarity: "000" },
+    { sinner: "Yi Sang", idName: "W Corp. L3 Cleanup Agent", image: "YiSang/WCorp_YiSang.webp", rarity: "000" }
 ];
 
 export const faustIDs: SinnerID[] = [
@@ -24,12 +24,16 @@ export const faustIDs: SinnerID[] = [
     { sinner: "Faust", idName: "W Corp. L2 Cleanup Agent", image: "Faust/WCorp_Faust.webp", rarity: "00" },
     { sinner: "Faust", idName: "Wuthering Heights Butler", image: "Faust/WH_Faust.webp", rarity: "00" },
     { sinner: "Faust", idName: "Zwei Assoc. South Section 4", image: "Faust/ZS4_Faust.webp", rarity: "00" },
-    
+    { sinner: "Faust", idName: "Blade Lineage Salsu", image: "Faust/BL_Faust.webp", rarity: "000" },
+    { sinner: "Faust", idName: "Heishou Pack - Mao Branch Adept", image: "Faust/Heishou_Faust.webp", rarity: "000" },
+    { sinner: "Faust", idName: "The House of Spiders: The Ring Apprentice", image: "Faust/Ring_Faust.webp", rarity: "000" },
+    { sinner: "Faust", idName: "The Index Proselyte:【Paper Slip】", image: "Faust/Index_Faust.webp", rarity: "000" },
+    { sinner: "Faust", idName: "LCE E.G.O::Ardor Blossom Star", image: "Faust/Ardor_Faust.webp", rarity: "000" },
+    { sinner: "Faust", idName: "Lobotomy E.G.O::Regret", image: "Faust/Regret_Faust.webp", rarity: "000" },
+    { sinner: "Faust", idName: "MultiCrack Office Rep", image: "Faust/MCR_Faust.webp", rarity: "000" },
     { sinner: "Faust", idName: "The One Who Grips", image: "Faust/Grips_Faust.webp", rarity: "000" },
     { sinner: "Faust", idName: "Seven Assoc. South Section 4", image: "Faust/SA4_Faust.webp", rarity: "000" },
-    { sinner: "Faust", idName: "Lobotomy E.G.O::Regret", image: "Faust/Regret_Faust.webp", rarity: "000" },
-    { sinner: "Faust", idName: "Blade Lineage Salsu", image: "Faust/BL_Faust.webp", rarity: "000" },
-    
+    { sinner: "Faust", idName: "Shi Assoc. East Section 3", image: "Faust/SE3_Faust.webp", rarity: "000" }
 ];
 
 export const donIDs: SinnerID[] = [
