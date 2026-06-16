@@ -88,3 +88,21 @@ export const meursaultIDs: SinnerID[] = [
     { sinner: "Meursault", idName: "The Thumb East Capo IIII", image: "Meursault/Thumb_Meursault.webp", rarity: "000" },
     { sinner: "Meursault", idName: "W Corp.L2 Cleanup Agent", image: "Meursault/WCorp_Meursault.webp", rarity: "000" }
 ];
+
+export const hongLuIDs: SinnerID[] = [
+    { sinner: "Hong Lu", idName: "LCB Sinner", image: "HongLu/LCB_HongLu.webp", rarity: "0" },
+    { sinner: "Hong Lu", idName: "Fanghunt Office Fixer", image: "HongLu/Fanghunt_HongLu.webp", rarity: "00" },
+    { sinner: "Hong Lu", idName: "Hook Office Fixer", image: "HongLu/Hook_HongLu.webp", rarity: "00" },
+    { sinner: "Hong Lu", idName: "Kurokumo Clan Wakashu", image: "HongLu/Kurokumo_HongLu.webp", rarity: "00" },
+    { sinner: "Hong Lu", idName: "Liu Assoc, South Section 5", image: "HongLu/Liu_HongLu.webp", rarity: "00" },
+    { sinner: "Hong Lu", idName: "W Corp. L2 Cleanup Agent", image: "HongLu/WCorp_HongLu.webp", rarity: "00" },
+    { sinner: "Hong Lu", idName: "Dieci Assoc. South Section 4", image: "HongLu/Dieci_HongLu.webp", rarity: "000" },
+    { sinner: "Hong Lu", idName: "District 20 Yurodivy", image: "HongLu/Yurodivy_HongLu.webp", rarity: "000" },
+    { sinner: "Hong Lu", idName: "Full-Stop Office Rep", image: "HongLu/FullStop_HongLu.webp", rarity: "000" },
+    { sinner: "Hong Lu", idName: "The House of Spiders: The Ring Nursefather", image: "HongLu/Ring_HongLu.webp", rarity: "000" },
+    { sinner: "Hong Lu", idName: "K Corp. Class 3 Excision Staff", image: "HongLu/KCorp_HongLu.webp", rarity: "000" },
+    { sinner: "Hong Lu", idName: "The Lord of Hongyuan", image: "HongLu/Lord_HongLu.webp", rarity: "000" },
+    { sinner: "Hong Lu", idName: "R Corp. 4th Pack Reindeer", image: "HongLu/RCorp_HongLu.webp", rarity: "000" },
+    { sinner: "Hong Lu", idName: "S Corp. Ch'unokkun", image: "HongLu/SCorp_HongLu.webp", rarity: "000" },
+    { sinner: "Hong Lu", idName: "Tingtang Gang Gangleader", image: "HongLu/Tingtang_HongLu.webp", rarity: "000" }
+];
