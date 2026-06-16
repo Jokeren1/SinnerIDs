@@ -16,6 +16,7 @@ export const yiSangIDs: SinnerID[] = [
     { sinner: "Yi Sang", idName: "N Corp. E.G.O::Fell Bullet", image: "YiSang/Fell_YiSang.webp", rarity: "000" },
     { sinner: "Yi Sang", idName: "The Ring Pointillist Student", image: "YiSang/Ring_YiSang.webp", rarity: "000" },
     { sinner: "Yi Sang", idName: "W Corp. L3 Cleanup Agent", image: "YiSang/WCorp_YiSang.webp", rarity: "000" }
+    // { sinner: "Yi Sang", idName: "", image: "YiSang/_YiSang.webp", rarity: "000" } For future use
 ];
 
 export const faustIDs: SinnerID[] = [
@@ -34,6 +35,7 @@ export const faustIDs: SinnerID[] = [
     { sinner: "Faust", idName: "The One Who Grips", image: "Faust/Grips_Faust.webp", rarity: "000" },
     { sinner: "Faust", idName: "Seven Assoc. South Section 4", image: "Faust/SA4_Faust.webp", rarity: "000" },
     { sinner: "Faust", idName: "Shi Assoc. East Section 3", image: "Faust/SE3_Faust.webp", rarity: "000" }
+    // { sinner: "Faust", idName: "", image: "Faust/_Faust.webp", rarity: "000" } For future use
 ];
 
 export const donIDs: SinnerID[] = [
@@ -51,6 +53,7 @@ export const donIDs: SinnerID[] = [
     { sinner: "Don Quixote", idName: "The Middle Little Sister", image: "Don/Middle_Don.webp", rarity: "000" },
     { sinner: "Don Quixote", idName: "T Corp. Class 3 Collection Staff", image: "Don/TCorp_Don.webp", rarity: "000" },
     { sinner: "Don Quixote", idName: "W Corp.L3 Cleanup Agent", image: "Don/WCorp_Don.webp", rarity: "000" }
+    // { sinner: "Don Quixote", idName: "", image: "Don/_Don.webp", rarity: "000" } For future use
 ];
 
 export const ryoshuIDs: SinnerID[] = [
@@ -69,6 +72,7 @@ export const ryoshuIDs: SinnerID[] = [
     { sinner: "Ryoshu", idName: "N Corp. E.G.O::Contempy, Awe", image: "Ryoshu/NCorp_Ryoshu.webp", rarity: "000" },
     { sinner: "Ryoshu", idName: "R.B. Chef Cuisine", image: "Ryoshu/RB_Ryoshu.webp", rarity: "000" },
     { sinner: "Ryoshu", idName: "W Corp. L3 Cleanup Agent", image:"Ryoshu/WCorp_Ryoshu.webp", rarity: "000" }
+    // { sinner: "Ryoshu", idName: "", image: "Ryoshu/_Ryoshu.webp", rarity: "000" } For future use
 ];
 
 export const meursaultIDs: SinnerID[] = [
@@ -87,6 +91,7 @@ export const meursaultIDs: SinnerID[] = [
     { sinner: "Meursault", idName: "The Ring Fauvist Student", image: "Meursault/Ring_Meursault.webp", rarity: "000" },
     { sinner: "Meursault", idName: "The Thumb East Capo IIII", image: "Meursault/Thumb_Meursault.webp", rarity: "000" },
     { sinner: "Meursault", idName: "W Corp.L2 Cleanup Agent", image: "Meursault/WCorp_Meursault.webp", rarity: "000" }
+    // { sinner: "Meursault", idName: "", image: "Meursault/_Meursault.webp", rarity: "000" } For future use
 ];
 
 export const hongLuIDs: SinnerID[] = [
@@ -105,4 +110,25 @@ export const hongLuIDs: SinnerID[] = [
     { sinner: "Hong Lu", idName: "R Corp. 4th Pack Reindeer", image: "HongLu/RCorp_HongLu.webp", rarity: "000" },
     { sinner: "Hong Lu", idName: "S Corp. Ch'unokkun", image: "HongLu/SCorp_HongLu.webp", rarity: "000" },
     { sinner: "Hong Lu", idName: "Tingtang Gang Gangleader", image: "HongLu/Tingtang_HongLu.webp", rarity: "000" }
+    // { sinner: "Hong Lu", idName: "", image: "HongLu/_HongLu.webp", rarity: "000" } For future use
+];
+
+export const heathcliffIDs: SinnerID[] = [
+    { sinner: "Heathcliff", idName: "LCB Sinner", image: "Heathcliff/LCB_Heathcliff.webp", rarity: "0" },
+    { sinner: "Heathcliff", idName: "MultiCrack Office Fixer", image: "Heathcliff/MultiCrack_Heathcliff.webp", rarity: "00" },
+    { sinner: "Heathcliff", idName: "N Corp. Kleinhammer", image: "Heathcliff/NCorp_Heathcliff.webp", rarity: "00" },
+    { sinner: "Heathcliff", idName: "Seven Assoc. South Section 4", image: "Heathcliff/Seven_Heathcliff.webp", rarity: "00" },
+    { sinner: "Heathcliff", idName: "Shi Assoc. South Section 5", image: "Heathcliff/Shi_Heathcliff.webp", rarity: "00" },
+    { sinner: "Heathcliff", idName: "Full-Stop Office Fixer", image: "Heathcliff/FullStop_Heathcliff.webp", rarity: "000" },
+    { sinner: "Heathcliff", idName: "Heishou Pack - You Branch Adept", image: "Heathcliff/Heishou_Heathcliff.webp", rarity: "000" },
+    { sinner: "Heathcliff", idName: "Kurokumo Clan Wakashu", image: "Heathcliff/Kurokumo_Heathcliff.webp", rarity: "000" },
+    { sinner: "Heathcliff", idName: "Lobotomy E.G.O::Sunshower", image: "Heathcliff/Sunshower_Heathcliff.webp", rarity: "000" },
+    { sinner: "Heathcliff", idName: "The Middle Big Brother", image: "Heathcliff/Middle_Heathcliff.webp", rarity: "000" },
+    { sinner: "Heathcliff", idName: "The Pequod Harpooneer", image: "Heathcliff/Pequod_Heathcliff.webp", rarity: "000" },
+    { sinner: "Heathcliff", idName: "R Corp. 4th Pack Rabbit", image: "Heathcliff/RCorp_Heathcliff.webp", rarity: "000" },
+    { sinner: "Heathcliff", idName: "W Corp. L4 Cleanup Agent - CCA", image: "Heathcliff/WCorp_Heathcliff.webp", rarity: "000" },
+    { sinner: "Heathcliff", idName: "Wild Hunt", image: "Heathcliff/Wild_Heathcliff.webp", rarity: "000" },
+    { sinner: "Heathcliff", idName: "Öufi Assoc. South Section 3", image: "Heathcliff/Oufi_Heathcliff.webp", rarity: "000" }
+    // { sinner: "Heathcliff", idName: "Thumb Apprentice", image: "Heathcliff/Thumb_Heathcliff.webp", rarity: "000" } // When Thumb heathcliff comes out next week 
+    // { sinner: "Heathcliff", idName: "", image: "Heathcliff/_Heathcliff.webp", rarity: "000" } For future use
 ];
