@@ -129,6 +129,26 @@ export const heathcliffIDs: SinnerID[] = [
     { sinner: "Heathcliff", idName: "W Corp. L4 Cleanup Agent - CCA", image: "Heathcliff/WCorp_Heathcliff.webp", rarity: "000" },
     { sinner: "Heathcliff", idName: "Wild Hunt", image: "Heathcliff/Wild_Heathcliff.webp", rarity: "000" },
     { sinner: "Heathcliff", idName: "Öufi Assoc. South Section 3", image: "Heathcliff/Oufi_Heathcliff.webp", rarity: "000" }
-    // { sinner: "Heathcliff", idName: "Thumb Apprentice", image: "Heathcliff/Thumb_Heathcliff.webp", rarity: "000" } // When Thumb heathcliff comes out next week 
+    // { sinner: "Heathcliff", idName: "The House of Spiders: The Thumb Apprentice", image: "Heathcliff/Thumb_Heathcliff.webp", rarity: "000" } // When Thumb heathcliff comes out next week 
     // { sinner: "Heathcliff", idName: "", image: "Heathcliff/_Heathcliff.webp", rarity: "000" } For future use
 ];
+
+export const ishmaelIDs: SinnerID[] = [
+    { sinner: "Ishmael", idName: "LCB Sinner", image: "Ishmael/LCB_Ishmael.webp", rarity: "0" },
+    { sinner: "Ishmael", idName: "Edgar Family Butler", image: "Ishmael/Edgar_Ishmael.webp", rarity: "00" },
+    { sinner: "Ishmael", idName: "LCCB Assistant Manager", image: "Ishmael/LCCB_Ishmael.webp", rarity: "00" },
+    { sinner: "Ishmael", idName: "Lobotomy E.G.O::Sloshing", image: "Ishmael/Sloshing_Ishmael.webp", rarity: "00" },
+    { sinner: "Ishmael", idName: "Shi Assoc. South Section 5", image: "Ishmael/Shi_Ishmael.webp", rarity: "00" },
+    { sinner: "Ishmael", idName: "Family Heirarch Candidate", image: "Ishmael/Family_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "The House of Spiders: The Middle Apprentice", image: "Ishmael/Middle_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "Jeong's Office Rep", image: "Ishmael/Jeong_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "Kurokumo Clan Captain", image: "Ishmael/Kurokumo_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "LCD OSIR Team", image: "Ishmael/LCD_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "Liu Assoc. South Section 4", image: "Ishmael/Liu_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "Molar Boatworks Fixer", image: "Ishmael/Molar_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "The Pequod Captain", image: "Ishmael/Pequod_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "R Corp. 4th Pack Reindeer", image: "Ishmael/RCorp_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "Zwei Assoc. West Section 3", image: "Ishmael/Zwei_Ishmael.webp", rarity: "000" },
+    // { sinner: "Ishmael", idName: "", image: "Ishmael/_Ishmael.webp", rarity: "000" } For future use
+];
+
