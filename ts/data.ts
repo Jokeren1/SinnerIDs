@@ -52,3 +52,22 @@ export const donIDs: SinnerID[] = [
     { sinner: "Don Quixote", idName: "T Corp. Class 3 Collection Staff", image: "Don/TCorp_Don.webp", rarity: "000" },
     { sinner: "Don Quixote", idName: "W Corp.L3 Cleanup Agent", image: "Don/WCorp_Don.webp", rarity: "000" }
 ];
+
+export const ryoshuIDs: SinnerID[] = [
+    { sinner: "Ryoshu", idName: "LCB Sinner", image: "Ryoshu/LCB_Ryoshu.webp", rarity: "0" },
+    { sinner: "Ryoshu", idName: "District 20 Yurodivy Ryoshu", image: "Ryoshu/Yurodivy_Ryoshu.webp", rarity: "00" },
+    { sinner: "Ryoshu", idName: "LCCB Assistant Manager", image: "Ryoshu/LCCB_Ryoshu.webp", rarity: "00" },
+    { sinner: "Ryoshu", idName: "Liu Assoc. South Section 4", image: "Ryoshu/LS4_Ryoshu.webp", rarity: "00" },
+    { sinner: "Ryoshu", idName: "Seven Assoc. South Section 6", image: "Ryoshu/SA6_Ryoshu.webp", rarity: "00" },
+    { sinner: "Ryoshu", idName: "Blade of the House of Spiders", image: "Ryoshu/HoS_Ryoshu.webp", rarity: "000" },
+    { sinner: "Ryoshu", idName: "Drifting Blade of Hongyuan", image: "Ryoshu/Hongyuan_Ryoshu.webp", rarity: "000" },
+    { sinner: "Ryoshu", idName: "Edgar Family Chief Butler", image: "Ryoshu/Edgar_Ryoshu.webp", rarity: "000" },
+    { sinner: "Ryoshu", idName: "Heishou Pack - Mao Branch", image: "Ryoshu/Heishou_Ryoshu.webp", rarity: "000" },
+    { sinner: "Ryoshu", idName: "Kurokumo Clan Wakashu", image: "Ryoshu/Kurokumo_Ryoshu.webp", rarity: "000" },
+    { sinner: "Ryoshu", idName: "Lobotomy E.G.O::Faint Aroma & Solitude", image: "Ryoshu/Faint_Ryoshu.webp", rarity: "000" },
+    { sinner: "Ryoshu", idName: "Lobotomy E.G.O::Red Eyes & Penitence", image: "Ryoshu/Red_Ryoshu.webp", rarity: "000" },
+    { sinner: "Ryoshu", idName: "N Corp. E.G.O::Contempy, Awe", image: "Ryoshu/NCorp_Ryoshu.webp", rarity: "000" },
+    { sinner: "Ryoshu", idName: "R.B. Chef Cuisine", image: "Ryoshu/RB_Ryoshu.webp", rarity: "000" },
+    { sinner: "Ryoshu", idName: "W Corp. L3 Cleanup Agent", image:"Ryoshu/WCorp_Ryoshu.webp", rarity: "000" }
+];
+
