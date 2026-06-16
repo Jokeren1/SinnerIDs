@@ -37,6 +37,18 @@ export const faustIDs: SinnerID[] = [
 ];
 
 export const donIDs: SinnerID[] = [
-    { sinner: "Don", idName: "LCB Sinner", image: "Don/LCB_Don.webp", rarity: "0" },
-
+    { sinner: "Don Quixote", idName: "LCB Sinner", image: "Don/LCB_Don.webp", rarity: "0" },
+    { sinner: "Don Quixote", idName: "Blade Lineage Salsu", image: "Don/BL_Don.webp", rarity: "00" },
+    { sinner: "Don Quixote", idName: "Lobotomy E.G.O::Lantern", image: "Don/Lantern_Don.webp", rarity: "00" },
+    { sinner: "Don Quixote", idName: "N Corp. Mittelhammer", image: "Don/NCorp_Don.webp", rarity: "00" },
+    { sinner: "Don Quixote", idName: "Shi Assoc. South Section 5 Director", image: "Don/SA5_Don.webp", rarity: "00" },
+    { sinner: "Don Quixote", idName: "Cinq Assoc. East Section 3", image: "Don/CE3_Don.webp", rarity: "000" },
+    { sinner: "Don Quixote", idName: "Cinq Assoc. South Section 5 Director", image: "Don/CS5_Don.webp", rarity: "000" },
+    { sinner: "Don Quixote", idName: "Heishou Pack - Wei Branch", image: "Don/Heishou_Don.webp", rarity: "000" },
+    { sinner: "Don Quixote", idName: "The Index Proxy - Effloresced E.G.O::Procuration", image: "Don/Index_Don.webp", rarity: "000" },
+    { sinner: "Don Quixote", idName: "Lobotomy E.G.O::In the Name of Love and Hate", image: "Don/Love_Don.webp", rarity: "000" },
+    { sinner: "Don Quixote", idName: "The Manager of La Manchaland", image: "Don/Manager_Don.webp", rarity: "000" },
+    { sinner: "Don Quixote", idName: "The Middle Little Sister", image: "Don/Middle_Don.webp", rarity: "000" },
+    { sinner: "Don Quixote", idName: "T Corp. Class 3 Collection Staff", image: "Don/TCorp_Don.webp", rarity: "000" },
+    { sinner: "Don Quixote", idName: "W Corp.L3 Cleanup Agent", image: "Don/WCorp_Don.webp", rarity: "000" }
 ];
