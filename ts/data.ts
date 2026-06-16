@@ -148,7 +148,26 @@ export const ishmaelIDs: SinnerID[] = [
     { sinner: "Ishmael", idName: "Molar Boatworks Fixer", image: "Ishmael/Molar_Ishmael.webp", rarity: "000" },
     { sinner: "Ishmael", idName: "The Pequod Captain", image: "Ishmael/Pequod_Ishmael.webp", rarity: "000" },
     { sinner: "Ishmael", idName: "R Corp. 4th Pack Reindeer", image: "Ishmael/RCorp_Ishmael.webp", rarity: "000" },
-    { sinner: "Ishmael", idName: "Zwei Assoc. West Section 3", image: "Ishmael/Zwei_Ishmael.webp", rarity: "000" },
+    { sinner: "Ishmael", idName: "Zwei Assoc. West Section 3", image: "Ishmael/Zwei_Ishmael.webp", rarity: "000" }
     // { sinner: "Ishmael", idName: "", image: "Ishmael/_Ishmael.webp", rarity: "000" } For future use
 ];
 
+export const rodionIDs: SinnerID[] = [
+    { sinner: "Rodion", idName: "LCB Sinner", image: "Rodion/LCB_Rodion.webp", rarity: "0" },
+    { sinner: "Rodion", idName: "LCCB Assistant Manager", image: "Rodion/LCCB_Rodion.webp", rarity: "00" },
+    { sinner: "Rodion", idName: "N Corp. Mittelhammer", image: "Rodion/NCorp_Rodion.webp", rarity: "00" },
+    { sinner: "Rodion", idName: "T Corp. Class 2 Collection Staff", image: "Rodion/TCorp_Rodion.webp", rarity: "00" },
+    { sinner: "Rodion", idName: "Zwei Assoc. South Section 5", image: "Rodion/Zwei_Rodion.webp", rarity: "00" },
+    { sinner: "Rodion", idName: "Devyat' Assoc. North Section 3", image: "Rodion/Devyat_Rodion.webp", rarity: "000" },
+    { sinner: "Rodion", idName: "Dieci Assoc. South Section 4", image: "Rodion/Dieci_Rodion.webp", rarity: "000" },
+    { sinner: "Rodion", idName: "Heishou Pack - Si Branch", image: "Rodion/Heishou_Rodion.webp", rarity: "000" },
+    { sinner: "Rodion", idName: "Kurokumo Clan Wakashu", image: "Rodion/Kurokumo_Rodion.webp", rarity: "000" },
+    { sinner: "Rodion", idName: "Liu Assoc. South Section 4 Director", image: "Rodion/Liu_Rodion.webp", rarity: "000" },
+    { sinner: "Rodion", idName: "Lobotomy E.G.O::The Sword Sharpened with Tears", image: "Rodion/KoD_Rodion.webp", rarity: "000" },
+    { sinner: "Rodion", idName: "The Princess of La Manchaland", image: "Rodion/Princess_Rodion.webp", rarity: "000" },
+    { sinner: "Rodion", idName: "R Corp. 4th Pack Reindeer", image: "Rodion/RCorp_Rodion.webp", rarity: "000" },
+    { sinner: "Rodion", idName: "The Ring Fauvist Docent", image: "Rodion/Ring_Rodion.webp", rarity: "000" },
+    { sinner: "Rodion", idName: "Rosespanner Workshop Rep", image: "Rodion/Rosespanner_Rodion.webp", rarity: "000" }
+    // { sinner: "Rodion", idName: "The House of Spiders: The Thumb Nursefather", image: "Rodion/Thumb_Rodion.webp", rarity: "000" } When Thumb Rodion comes out next week
+    // { sinner: "Rodion", idName: "", image: "Rodion/_Rodion.webp", rarity: "000" } For future use
+];
