@@ -171,3 +171,22 @@ export const rodionIDs: SinnerID[] = [
     // { sinner: "Rodion", idName: "The House of Spiders: The Thumb Nursefather", image: "Rodion/Thumb_Rodion.webp", rarity: "000" } When Thumb Rodion comes out next week
     // { sinner: "Rodion", idName: "", image: "Rodion/_Rodion.webp", rarity: "000" } For future use
 ];
+
+export const sinclairIDs: SinnerID[] = [
+    { sinner: "Sinclair", idName: "LCB Sinner", image: "Sinclair/LCB_Sinclair.webp", rarity: "0" },
+    { sinner: "Sinclair", idName: "Lobotomy E.G.O::Red Sheet", image: "Sinclair/Red_Sinclair.webp", rarity: "00" },
+    { sinner: "Sinclair", idName: "Los Mariachis Jefe", image: "Sinclair/Jefe_Sinclair.webp", rarity: "00" },
+    { sinner: "Sinclair", idName: "Molar Boatworks fixer", image: "Sinclair/Molar_Sinclair.webp", rarity: "00" },
+    { sinner: "Sinclair", idName: "Zwei Assoc. South Section 6", image: "Sinclair/ZweiS_Sinclair.webp", rarity: "00" },
+    { sinner: "Sinclair", idName: "Zwei Assoc. West Section 3", image: "Sinclair/ZweiW_Sinclair.webp", rarity: "00" },
+    { sinner: "Sinclair", idName: "Blade Lineage Salsu", image: "Sinclair/BL_Sinclair.webp", rarity: "000" },
+    { sinner: "Sinclair", idName: "Cinq Assoc. South Section 4 Director", image: "Sinclair/Cinq_Sinclair.webp", rarity: "000" },
+    { sinner: "Sinclair", idName: "Dawn Office Fixer", image: "Sinclair/Dawn_Sinclair.webp", rarity: "000" },
+    { sinner: "Sinclair", idName: "Devyat' Assoc. North Section 3", image: "Sinclair/Devyat_Sinclair.webp", rarity: "000" },
+    { sinner: "Sinclair", idName: "Heishou Pack - You Branch", image: "Sinclair/Heishou_Sinclair.webp", rarity: "000" },
+    { sinner: "Sinclair", idName: "The House of Spiders: The Pinky Apprentice", image: "Sinclair/Pinky_Sinclair.webp", rarity: "000" },
+    { sinner: "Sinclair", idName: "The Middle Little Brother", image: "Sinclair/Middle_Sinclair.webp", rarity: "000" },
+    { sinner: "Sinclair", idName: "The One Who Shall Grip", image: "Sinclair/Grip_Sinclair.webp", rarity: "000" },
+    { sinner: "Sinclair", idName: "The Thumb East Soldato II", image: "Sinclair/Thumb_Sinclair.webp", rarity: "000" },
+    //{ sinner: "Sinclair", idName: "", image: "Sinclair/_Sinclair.webp", rarity: "000" } For future use
+];
