@@ -71,3 +71,20 @@ export const ryoshuIDs: SinnerID[] = [
     { sinner: "Ryoshu", idName: "W Corp. L3 Cleanup Agent", image:"Ryoshu/WCorp_Ryoshu.webp", rarity: "000" }
 ];
 
+export const meursaultIDs: SinnerID[] = [
+    { sinner: "Meursault", idName: "LCB Sinner", image: "Meursault/LCB_Meursault.webp", rarity: "0" },
+    { sinner: "Meursault", idName: "Dead Rabbits Boss", image: "Meursault/Dead_Meursault.webp", rarity: "00" },
+    { sinner: "Meursault", idName: "Liu Assoc, South Section 6", image: "Meursault/Liu_Meursault.webp", rarity: "00" },
+    { sinner: "Meursault", idName: "The Middle Little Brother", image: "Meursault/Middle_Meursault.webp", rarity: "00" },
+    { sinner: "Meursault", idName: "Rosespanner Workshop Fixer", image: "Meursault/Rosespanner_Meursault.webp", rarity: "00" },
+    { sinner: "Meursault", idName: "Blade Lineage Mentor", image: "Meursault/BL_Meursault.webp", rarity: "000" },
+    { sinner: "Meursault", idName: "Cinq Assoc. West Section 3", image: "Meursault/Cinq_Meursault.webp", rarity: "000" },
+    { sinner: "Meursault", idName: "Dieci Assoc. South Section 4", image: "Meursault/Dieci_Meursault.webp", rarity: "000" },
+    { sinner: "Meursault", idName: "Lobotomy E.G.O::Hornet 【Alteration】 ", image: "Meursault/Hornet_Meursault.webp", rarity: "000" },
+    { sinner: "Meursault", idName: "N Corp. Großhammer", image: "Meursault/NCorp_Meursault.webp", rarity: "000" },
+    { sinner: "Meursault", idName: "The Prince of La Manchaland", image: "Meursault/Prince_Meursault.webp", rarity: "000" },
+    { sinner: "Meursault", idName: "R Corp. 4th Pack Rhino Meursault", image: "Meursault/RCorp_Meursault.webp", rarity: "000" },
+    { sinner: "Meursault", idName: "The Ring Fauvist Student", image: "Meursault/Ring_Meursault.webp", rarity: "000" },
+    { sinner: "Meursault", idName: "The Thumb East Capo IIII", image: "Meursault/Thumb_Meursault.webp", rarity: "000" },
+    { sinner: "Meursault", idName: "W Corp.L2 Cleanup Agent", image: "Meursault/WCorp_Meursault.webp", rarity: "000" }
+];
