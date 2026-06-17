@@ -190,3 +190,27 @@ export const sinclairIDs: SinnerID[] = [
     { sinner: "Sinclair", idName: "The Thumb East Soldato II", image: "Sinclair/Thumb_Sinclair.webp", rarity: "000" },
     //{ sinner: "Sinclair", idName: "", image: "Sinclair/_Sinclair.webp", rarity: "000" } For future use
 ];
+
+export const outisIDs: SinnerID[] = [
+    { sinner: "Outis", idName: "LCB Sinner", image: "Outis/LCB_Outis.webp", rarity: "0" },
+    { sinner: "Outis", idName: "Blade Lineage Salsu", image: "Outis/BL_Outis.webp", rarity: "00" },
+    { sinner: "Outis", idName: "Cinq Assoc. South Section 4", image: "Outis/Cinq_Outis.webp", rarity: "00" },
+    { sinner: "Outis", idName: "G Corp. Head Manager", image: "Outis/GCorp_Outis.webp", rarity: "00" },
+    { sinner: "Outis", idName: "The Ring Pointillist Student", image: "Outis/Ring_Outis.webp", rarity: "00" },
+    { sinner: "Outis", idName: "The Barber of La Manchaland", image: "Outis/Barber_Outis.webp", rarity: "000" },
+    { sinner: "Outis", idName: "Heishou Pack - Mao Branch", image: "Outis/Heishou_Outis.webp", rarity: "000" },
+    { sinner: "Outis", idName: "The House of Spiders: The Middle Nursefather", image: "Outis/Middle_Outis.webp", rarity: "000" },
+    { sinner: "Outis", idName: "LCA Udjat Vanguard Team 3 Leader", image: "Outis/LCA_Outis.webp", rarity: "000" },
+    { sinner: "Outis", idName: "Lobotomy E.G.O::Magic Bullet", image: "Outis/Magic_Outis.webp", rarity: "000" },
+    { sinner: "Outis", idName: "Molar Office Fixer", image: "Outis/Molar_Outis.webp", rarity: "000" },
+    { sinner: "Outis", idName: "Seven Assoc. South Section 6 Director", image: "Outis/Seven_Outis.webp", rarity: "000" },
+    { sinner: "Outis", idName: "T Corp. Class 3 VDCU Staff", image: "Outis/TCorp_Outis.webp", rarity: "000" },
+    { sinner: "Outis", idName: "W Corp. L3 Cleanup Captain", image: "Outis/WCorp_Outis.webp", rarity: "000" },
+    { sinner: "Outis", idName: "Wuthering Heights Chief Butler", image: "Outis/Butler_Outis.webp", rarity: "000" }
+    // { sinner: "Outis", idName: "", image: "Outis/_Outis.webp", rarity: "000" } For future use
+];
+
+export const gregorIDs: SinnerID[] = [
+    { sinner: "Gregor", idName: "LCB Sinner", image: "Gregor/LCB_Gregor.webp", rarity: "0" },
+    
+];
