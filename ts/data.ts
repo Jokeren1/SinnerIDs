@@ -212,5 +212,19 @@ export const outisIDs: SinnerID[] = [
 
 export const gregorIDs: SinnerID[] = [
     { sinner: "Gregor", idName: "LCB Sinner", image: "Gregor/LCB_Gregor.webp", rarity: "0" },
-    
+    { sinner: "Gregor", idName: "Kurokumo Clan Captain", image: "Gregor/Kurokumo_Gregor.webp", rarity: "00" },
+    { sinner: "Gregor", idName: "Liu Assoc. South Section 6", image: "Gregor/Liu_Gregor.webp", rarity: "00" },
+    { sinner: "Gregor", idName: "R.B. Sous-chef", image: "Gregor/RB_Gregor.webp", rarity: "00" },
+    { sinner: "Gregor", idName: "Rosespanner Workshop Fixer", image: "Gregor/Rosespanner_Gregor.webp", rarity: "00" },
+    { sinner: "Gregor", idName: "Edgar Family Heir", image: "Gregor/Edgar_Gregor.webp", rarity: "000" },
+    { sinner: "Gregor", idName: "Firefist Office Survivor", image: "Gregor/Firefist_Gregor.webp", rarity: "000" },
+    { sinner: "Gregor", idName: "G Corp. Manager Corporal", image: "Gregor/GCorp_Gregor.webp", rarity: "000" },
+    { sinner: "Gregor", idName: "Heishou Pack - Si Branch", image: "Gregor/Heishou_Gregor.webp", rarity: "000" },
+    { sinner: "Gregor", idName: "LCE E.G.O::AEDD", image: "Gregor/LCE_Gregor.webp", rarity: "000" },
+    { sinner: "Gregor", idName: "Lobotomy E.G.O::Lamp", image: "Gregor/Lamp_Gregor.webp", rarity: "000" },
+    { sinner: "Gregor", idName: "Night Awls Capitano", image: "Gregor/Night_Gregor.webp", rarity: "000" },
+    { sinner: "Gregor", idName: "The Priest of La Manchaland", image: "Gregor/Priest_Gregor.webp", rarity: "000" },
+    { sinner: "Gregor", idName: "Twinhook Pirates First Mate", image: "Gregor/Twinhook_Gregor.webp", rarity: "000" },
+    { sinner: "Gregor", idName: "Zwei Assoc. South Section 4", image: "Gregor/Zwei_Gregor.webp", rarity: "000" }
+    // { sinner: "Gregor", idName: "", image: "Gregor/_Gregor.webp", rarity: "000" } For future use
 ];
