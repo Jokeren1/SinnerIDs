@@ -10,6 +10,7 @@ interface SinnerMenuData {
     ids: SinnerID[];
 }
 
+
 const sinners: SinnerMenuData[] = [
     { name: "Yi Sang", portrait: "IDs/YiSang/Portraits/LCB_Yi_Sang.jpg", ids: yiSangIDs },
     { name: "Faust", portrait: "IDs/Faust/Portraits/LCB_Faust.jpg", ids: faustIDs },
@@ -26,6 +27,18 @@ const sinners: SinnerMenuData[] = [
 ];
 
 const sinnerGrid = document.getElementById("sinnerGrid")! as HTMLDivElement;
+const mainMenu = document.getElementById("mainMenu")! as HTMLDivElement;
+const idMenu = document.getElementById("idMenu")! as HTMLDivElement;
+const selectedSinnerName = document.getElementById("selectedSinnerName")! as HTMLHeadingElement;
+const idGrid = document.getElementById("idGrid")! as HTMLDivElement;
+const backToMainButton = document.getElementById("backButton")! as HTMLButtonElement;
+const equippedIDPortrait = document.createElement("img");
+const equippedIDName = document.createElement("p");
+
+backToMainButton.addEventListener("click", () => {
+    idMenu.hidden = true;
+    mainMenu.hidden = false;
+});
 
 function createSinnerCard(sinner: SinnerMenuData): HTMLDivElement {
     const card = document.createElement("div");
@@ -42,8 +55,7 @@ function createSinnerCard(sinner: SinnerMenuData): HTMLDivElement {
     card.appendChild(name);
 
     card.addEventListener("click", () => {
-        console.log(`You clicked ${sinner.name}`);
-        console.log(sinner.ids);
+        openIDMenu(sinner);
     });
 
     return card;
@@ -60,18 +72,35 @@ function loadMainMenu(): void {
 
 loadMainMenu();
 
-
-
-/*function showIDMenu(): void {
+function openIDMenu(sinner: SinnerMenuData): void {
+    console.log(`Opening ID menu for ${sinner.name}`);
     mainMenu.hidden = true;
     idMenu.hidden = false;
-}
 
-function showViewer(): void {
-    idMenu.hidden = true;
-    idViewer.hidden = false;
+    selectedSinnerName.textContent = sinner.name;
+
+    idGrid.innerHTML = "";
+
+    const equippedID = sinner.ids[0];
+    if (!equippedID) {
+        return;
+    }
+    equippedIDPortrait.src = equippedID.portrait;
+    equippedIDName.textContent = equippedID.idName;
+
+    for (const id of sinner.ids) {
+        const card = document.createElement("div");
+        card.className = "id-card";
+
+        const image = document.createElement("img");
+        image.src = id.portrait;
+
+        card.appendChild(image);
+        card.addEventListener("click", () => {
+            equippedIDPortrait.src = id.portrait;
+            equippedIDName.textContent = id.idName;
+        });
+
+        idGrid.appendChild(card);
+    }
 }
-function backToMain(): void {
-    idMenu.hidden = true;
-    mainMenu.hidden = false;
-}*/

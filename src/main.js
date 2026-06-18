@@ -14,6 +14,17 @@ const sinners = [
     { name: "Gregor", portrait: "IDs/Gregor/Portraits/LCB_Gregor.jpg", ids: gregorIDs }
 ];
 const sinnerGrid = document.getElementById("sinnerGrid");
+const mainMenu = document.getElementById("mainMenu");
+const idMenu = document.getElementById("idMenu");
+const selectedSinnerName = document.getElementById("selectedSinnerName");
+const idGrid = document.getElementById("idGrid");
+const backToMainButton = document.getElementById("backButton");
+const equippedIDPortrait = document.createElement("img");
+const equippedIDName = document.createElement("p");
+backToMainButton.addEventListener("click", () => {
+    idMenu.hidden = true;
+    mainMenu.hidden = false;
+});
 function createSinnerCard(sinner) {
     const card = document.createElement("div");
     card.className = "grid-item";
@@ -25,8 +36,7 @@ function createSinnerCard(sinner) {
     card.appendChild(image);
     card.appendChild(name);
     card.addEventListener("click", () => {
-        console.log(`You clicked ${sinner.name}`);
-        console.log(sinner.ids);
+        openIDMenu(sinner);
     });
     return card;
 }
@@ -38,16 +48,28 @@ function loadMainMenu() {
     }
 }
 loadMainMenu();
-/*function showIDMenu(): void {
+function openIDMenu(sinner) {
+    console.log(`Opening ID menu for ${sinner.name}`);
     mainMenu.hidden = true;
     idMenu.hidden = false;
+    selectedSinnerName.textContent = sinner.name;
+    idGrid.innerHTML = "";
+    const equippedID = sinner.ids[0];
+    if (!equippedID) {
+        return;
+    }
+    equippedIDPortrait.src = equippedID.portrait;
+    equippedIDName.textContent = equippedID.idName;
+    for (const id of sinner.ids) {
+        const card = document.createElement("div");
+        card.className = "id-card";
+        const image = document.createElement("img");
+        image.src = id.portrait;
+        card.appendChild(image);
+        card.addEventListener("click", () => {
+            equippedIDPortrait.src = id.portrait;
+            equippedIDName.textContent = id.idName;
+        });
+        idGrid.appendChild(card);
+    }
 }
-
-function showViewer(): void {
-    idMenu.hidden = true;
-    idViewer.hidden = false;
-}
-function backToMain(): void {
-    idMenu.hidden = true;
-    mainMenu.hidden = false;
-}*/ 

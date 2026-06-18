@@ -21,3 +21,22 @@
     max-width: 500px;
     object-fit: contain;
 }
+
+.id-menu-layout {
+    display: flex;
+    gap: 2rem;
+}
+
+.selected-id-panel {
+    width: 30%;
+}
+
+.id-grid {
+    width: 70%;
+
+    display: grid;
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 10px;
+}
