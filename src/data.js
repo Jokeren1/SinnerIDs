@@ -1,8 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.gregorIDs = exports.outisIDs = exports.sinclairIDs = exports.rodionIDs = exports.ishmaelIDs = exports.heathcliffIDs = exports.hongLuIDs = exports.meursaultIDs = exports.ryoshuIDs = exports.donIDs = exports.faustIDs = exports.yiSangIDs = void 0;
-const type_1 = require("./type");
-exports.yiSangIDs = [
+
+export const yiSangIDs = [
     { sinner: "Yi Sang", idName: "LCB Sinner", image: "IDs/YiSang/LCB_Yi_Sang.webp", rarity: "0" },
     { sinner: "Yi Sang", idName: "Dieci Assoc. South Section 4", image: "IDs/YiSang/DS4_YiSang.webp", rarity: "00" },
     { sinner: "Yi Sang", idName: "LCE E.G.O::Lantern", image: "IDs/YiSang/LCE_YiSang.webp", rarity: "00" },
@@ -20,7 +17,7 @@ exports.yiSangIDs = [
     { sinner: "Yi Sang", idName: "W Corp. L3 Cleanup Agent", image: "IDs/YiSang/WCorp_YiSang.webp", rarity: "000" }
     // { sinner: "Yi Sang", idName: "", image: "IDs/YiSang/_YiSang.webp", rarity: "000" } For future use
 ];
-exports.faustIDs = [
+export const faustIDs = [
     { sinner: "Faust", idName: "LCB Sinner", image: "IDs/Faust/LCB_Faust.webp", rarity: "0" },
     { sinner: "Faust", idName: "Lobotomy Corp. Remnant", image: "IDs/Faust/LCR_Faust.webp", rarity: "00" },
     { sinner: "Faust", idName: "W Corp. L2 Cleanup Agent", image: "IDs/Faust/WCorp_Faust.webp", rarity: "00" },
@@ -38,7 +35,7 @@ exports.faustIDs = [
     { sinner: "Faust", idName: "Shi Assoc. East Section 3", image: "IDs/Faust/SE3_Faust.webp", rarity: "000" }
     // { sinner: "Faust", idName: "", image: "IDs/Faust/_Faust.webp", rarity: "000" } For future use
 ];
-exports.donIDs = [
+export const donIDs = [
     { sinner: "Don Quixote", idName: "LCB Sinner", image: "IDs/Don/LCB_Don.webp", rarity: "0" },
     { sinner: "Don Quixote", idName: "Blade Lineage Salsu", image: "IDs/Don/BL_Don.webp", rarity: "00" },
     { sinner: "Don Quixote", idName: "Lobotomy E.G.O::Lantern", image: "IDs/Don/Lantern_Don.webp", rarity: "00" },
@@ -55,7 +52,7 @@ exports.donIDs = [
     { sinner: "Don Quixote", idName: "W Corp.L3 Cleanup Agent", image: "IDs/Don/WCorp_Don.webp", rarity: "000" }
     // { sinner: "Don Quixote", idName: "", image: "IDs/Don/_Don.webp", rarity: "000" } For future use
 ];
-exports.ryoshuIDs = [
+export const ryoshuIDs = [
     { sinner: "Ryoshu", idName: "LCB Sinner", image: "IDs/Ryoshu/LCB_Ryoshu.webp", rarity: "0" },
     { sinner: "Ryoshu", idName: "District 20 Yurodivy Ryoshu", image: "IDs/Ryoshu/Yurodivy_Ryoshu.webp", rarity: "00" },
     { sinner: "Ryoshu", idName: "LCCB Assistant Manager", image: "IDs/Ryoshu/LCCB_Ryoshu.webp", rarity: "00" },
@@ -73,7 +70,7 @@ exports.ryoshuIDs = [
     { sinner: "Ryoshu", idName: "W Corp. L3 Cleanup Agent", image: "IDs/Ryoshu/WCorp_Ryoshu.webp", rarity: "000" }
     // { sinner: "Ryoshu", idName: "", image: "IDs/Ryoshu/_Ryoshu.webp", rarity: "000" } For future use
 ];
-exports.meursaultIDs = [
+export const meursaultIDs = [
     { sinner: "Meursault", idName: "LCB Sinner", image: "IDs/Meursault/LCB_Meursault.webp", rarity: "0" },
     { sinner: "Meursault", idName: "Dead Rabbits Boss", image: "IDs/Meursault/Dead_Meursault.webp", rarity: "00" },
     { sinner: "Meursault", idName: "Liu Assoc, South Section 6", image: "IDs/Meursault/Liu_Meursault.webp", rarity: "00" },
@@ -91,7 +88,7 @@ exports.meursaultIDs = [
     { sinner: "Meursault", idName: "W Corp.L2 Cleanup Agent", image: "IDs/Meursault/WCorp_Meursault.webp", rarity: "000" }
     // { sinner: "Meursault", idName: "", image: "IDs/Meursault/_Meursault.webp", rarity: "000" } For future use
 ];
-exports.hongLuIDs = [
+export const hongLuIDs = [
     { sinner: "Hong Lu", idName: "LCB Sinner", image: "IDs/HongLu/LCB_HongLu.webp", rarity: "0" },
     { sinner: "Hong Lu", idName: "Fanghunt Office Fixer", image: "IDs/HongLu/Fanghunt_HongLu.webp", rarity: "00" },
     { sinner: "Hong Lu", idName: "Hook Office Fixer", image: "IDs/HongLu/Hook_HongLu.webp", rarity: "00" },
@@ -109,7 +106,7 @@ exports.hongLuIDs = [
     { sinner: "Hong Lu", idName: "Tingtang Gang Gangleader", image: "IDs/HongLu/Tingtang_HongLu.webp", rarity: "000" }
     // { sinner: "Hong Lu", idName: "", image: "IDs/HongLu/_HongLu.webp", rarity: "000" } For future use
 ];
-exports.heathcliffIDs = [
+export const heathcliffIDs = [
     { sinner: "Heathcliff", idName: "LCB Sinner", image: "IDs/Heathcliff/LCB_Heathcliff.webp", rarity: "0" },
     { sinner: "Heathcliff", idName: "MultiCrack Office Fixer", image: "IDs/Heathcliff/MultiCrack_Heathcliff.webp", rarity: "00" },
     { sinner: "Heathcliff", idName: "N Corp. Kleinhammer", image: "IDs/Heathcliff/NCorp_Heathcliff.webp", rarity: "00" },
@@ -128,7 +125,7 @@ exports.heathcliffIDs = [
     // { sinner: "Heathcliff", idName: "The House of Spiders: The Thumb Apprentice", image: "IDs/Heathcliff/Thumb_Heathcliff.webp", rarity: "000" } // When Thumb heathcliff comes out next week 
     // { sinner: "Heathcliff", idName: "", image: "IDs/Heathcliff/_Heathcliff.webp", rarity: "000" } For future use
 ];
-exports.ishmaelIDs = [
+export const ishmaelIDs = [
     { sinner: "Ishmael", idName: "LCB Sinner", image: "IDs/Ishmael/LCB_Ishmael.webp", rarity: "0" },
     { sinner: "Ishmael", idName: "Edgar Family Butler", image: "IDs/Ishmael/Edgar_Ishmael.webp", rarity: "00" },
     { sinner: "Ishmael", idName: "LCCB Assistant Manager", image: "IDs/Ishmael/LCCB_Ishmael.webp", rarity: "00" },
@@ -146,7 +143,7 @@ exports.ishmaelIDs = [
     { sinner: "Ishmael", idName: "Zwei Assoc. West Section 3", image: "IDs/Ishmael/Zwei_Ishmael.webp", rarity: "000" }
     // { sinner: "Ishmael", idName: "", image: "IDs/Ishmael/_Ishmael.webp", rarity: "000" } For future use
 ];
-exports.rodionIDs = [
+export const rodionIDs = [
     { sinner: "Rodion", idName: "LCB Sinner", image: "IDs/Rodion/LCB_Rodion.webp", rarity: "0" },
     { sinner: "Rodion", idName: "LCCB Assistant Manager", image: "IDs/Rodion/LCCB_Rodion.webp", rarity: "00" },
     { sinner: "Rodion", idName: "N Corp. Mittelhammer", image: "IDs/Rodion/NCorp_Rodion.webp", rarity: "00" },
@@ -165,7 +162,7 @@ exports.rodionIDs = [
     // { sinner: "Rodion", idName: "The House of Spiders: The Thumb Nursefather", image: "IDs/Rodion/Thumb_Rodion.webp", rarity: "000" } When Thumb Rodion comes out next week
     // { sinner: "Rodion", idName: "", image: "IDs/Rodion/_Rodion.webp", rarity: "000" } For future use
 ];
-exports.sinclairIDs = [
+export const sinclairIDs = [
     { sinner: "Sinclair", idName: "LCB Sinner", image: "IDs/Sinclair/LCB_Sinclair.webp", rarity: "0" },
     { sinner: "Sinclair", idName: "Lobotomy E.G.O::Red Sheet", image: "IDs/Sinclair/Red_Sinclair.webp", rarity: "00" },
     { sinner: "Sinclair", idName: "Los Mariachis Jefe", image: "IDs/Sinclair/Jefe_Sinclair.webp", rarity: "00" },
@@ -183,7 +180,7 @@ exports.sinclairIDs = [
     { sinner: "Sinclair", idName: "The Thumb East Soldato II", image: "IDs/Sinclair/Thumb_Sinclair.webp", rarity: "000" },
     //{ sinner: "Sinclair", idName: "", image: "IDs/Sinclair/_Sinclair.webp", rarity: "000" } For future use
 ];
-exports.outisIDs = [
+export const outisIDs = [
     { sinner: "Outis", idName: "LCB Sinner", image: "IDs/Outis/LCB_Outis.webp", rarity: "0" },
     { sinner: "Outis", idName: "Blade Lineage Salsu", image: "IDs/Outis/BL_Outis.webp", rarity: "00" },
     { sinner: "Outis", idName: "Cinq Assoc. South Section 4", image: "IDs/Outis/Cinq_Outis.webp", rarity: "00" },
@@ -201,7 +198,7 @@ exports.outisIDs = [
     { sinner: "Outis", idName: "Wuthering Heights Chief Butler", image: "IDs/Outis/Butler_Outis.webp", rarity: "000" }
     // { sinner: "Outis", idName: "", image: "IDs/Outis/_Outis.webp", rarity: "000" } For future use
 ];
-exports.gregorIDs = [
+export const gregorIDs = [
     { sinner: "Gregor", idName: "LCB Sinner", image: "IDs/Gregor/LCB_Gregor.webp", rarity: "0" },
     { sinner: "Gregor", idName: "Kurokumo Clan Captain", image: "IDs/Gregor/Kurokumo_Gregor.webp", rarity: "00" },
     { sinner: "Gregor", idName: "Liu Assoc. South Section 6", image: "IDs/Gregor/Liu_Gregor.webp", rarity: "00" },
@@ -219,4 +216,3 @@ exports.gregorIDs = [
     { sinner: "Gregor", idName: "Zwei Assoc. South Section 4", image: "IDs/Gregor/Zwei_Gregor.webp", rarity: "000" }
     // { sinner: "Gregor", idName: "", image: "IDs/Gregor/_Gregor.webp", rarity: "000" } For future use
 ];
-//# sourceMappingURL=data.js.map

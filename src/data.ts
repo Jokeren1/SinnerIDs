@@ -1,4 +1,4 @@
-import { SinnerID } from "./type";
+import type { SinnerID } from "./type.js";
 
 export const yiSangIDs: SinnerID[] = [
     { sinner: "Yi Sang", idName: "LCB Sinner", image: "IDs/YiSang/LCB_Yi_Sang.webp", rarity: "0" },

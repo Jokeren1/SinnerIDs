@@ -1,16 +1,5 @@
-import {
-    yiSangIDs, faustIDs, donIDs, ryoshuIDs, meursaultIDs, hongLuIDs, 
-    heathcliffIDs, ishmaelIDs, rodionIDs, sinclairIDs, outisIDs, gregorIDs
-} from "./data.js";
-import { Rarity, SinnerID} from "./type.js";
-
-interface SinnerMenuData {
-    name: string;
-    portrait: string;
-    ids: SinnerID[];
-}
-
-const sinners: SinnerMenuData[] = [
+import { yiSangIDs, faustIDs, donIDs, ryoshuIDs, meursaultIDs, hongLuIDs, heathcliffIDs, ishmaelIDs, rodionIDs, sinclairIDs, outisIDs, gregorIDs } from "./data.js";
+const sinners = [
     { name: "Yi Sang", portrait: "IDs/YiSang/Portraits/LCB_Yi_Sang.jpg", ids: yiSangIDs },
     { name: "Faust", portrait: "IDs/Faust/Portraits/LCB_Faust.jpg", ids: faustIDs },
     { name: "Don Quixote", portrait: "IDs/Don/Portraits/LCB_Don.jpg", ids: donIDs },
@@ -24,44 +13,31 @@ const sinners: SinnerMenuData[] = [
     { name: "Outis", portrait: "IDs/Outis/Portraits/LCB_Outis.jpg", ids: outisIDs },
     { name: "Gregor", portrait: "IDs/Gregor/Portraits/LCB_Gregor.jpg", ids: gregorIDs }
 ];
-
-const sinnerGrid = document.getElementById("sinnerGrid")! as HTMLDivElement;
-
-function createSinnerCard(sinner: SinnerMenuData): HTMLDivElement {
+const sinnerGrid = document.getElementById("sinnerGrid");
+function createSinnerCard(sinner) {
     const card = document.createElement("div");
     card.className = "grid-item";
-
     const image = document.createElement("img");
     image.src = sinner.portrait;
     image.alt = sinner.name;
-
     const name = document.createElement("p");
     name.textContent = sinner.name;
-
     card.appendChild(image);
     card.appendChild(name);
-
     card.addEventListener("click", () => {
         console.log(`You clicked ${sinner.name}`);
         console.log(sinner.ids);
     });
-
     return card;
 }
-
-function loadMainMenu(): void {
+function loadMainMenu() {
     sinnerGrid.innerHTML = "";
-
     for (const sinner of sinners) {
         const card = createSinnerCard(sinner);
         sinnerGrid.appendChild(card);
     }
 }
-
 loadMainMenu();
-
-
-
 /*function showIDMenu(): void {
     mainMenu.hidden = true;
     idMenu.hidden = false;
@@ -74,4 +50,4 @@ function showViewer(): void {
 function backToMain(): void {
     idMenu.hidden = true;
     mainMenu.hidden = false;
-}*/
+}*/ 

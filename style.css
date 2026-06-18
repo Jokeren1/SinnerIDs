@@ -1,13 +1,23 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    gap: 10px;
+    gap: 20px;
 }
-
 .grid-item {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     padding: 20px;
     text-align: center;
-    aspect-ratio: 9/16; /* For the portrait aspect ratio */
+    /*aspect-ratio: 9/16; For the portrait aspect ratio*/
+}
+
+.grid-item img {
+    width: 200px;
+    height: auto;
+}
+
+#menuArt img {
+    max-height: 800px;
+    max-width: 500px;
+    object-fit: contain;
 }
