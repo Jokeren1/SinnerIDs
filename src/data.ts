@@ -1,5 +1,6 @@
 import type { SinnerID } from "./type.js";
 import { yiSangskillData } from "./SkillData/yiSang.js";
+import { faustskillData } from "./SkillData/Faust.js";
 
 export const yiSangIDs: SinnerID[] = [
     { sinner: "Yi Sang", idName: "LCB Sinner", image: "IDs/YiSang/LCB_Yi_Sang.webp", portrait: "IDs/YiSang/Portraits/LCB_Yi_Sang.jpg", 
@@ -42,21 +43,40 @@ export const yiSangIDs: SinnerID[] = [
 ];
 
 export const faustIDs: SinnerID[] = [
-    { sinner: "Faust", idName: "LCB Sinner", image: "IDs/Faust/LCB_Faust.webp", portrait: "IDs/Faust/Portraits/LCB_Faust.jpg", rarity: "Ø" },
-    { sinner: "Faust", idName: "Lobotomy Corp. Remnant", image: "IDs/Faust/LCR_Faust.webp", portrait: "IDs/Faust/Portraits/LCR_Faust.jpg", rarity: "ØØ" },
-    { sinner: "Faust", idName: "W Corp. L2 Cleanup Agent", image: "IDs/Faust/WCorp_Faust.webp", portrait: "IDs/Faust/Portraits/WCorp_Faust.jpg", rarity: "ØØ" },
-    { sinner: "Faust", idName: "Wuthering Heights Butler", image: "IDs/Faust/WH_Faust.webp", portrait: "IDs/Faust/Portraits/WH_Faust.jpg", rarity: "ØØ" },
-    { sinner: "Faust", idName: "Zwei Assoc. South Section 4", image: "IDs/Faust/ZS4_Faust.webp", portrait: "IDs/Faust/Portraits/ZS4_Faust.jpg", rarity: "ØØ" },
-    { sinner: "Faust", idName: "Blade Lineage Salsu", image: "IDs/Faust/BL_Faust.webp", portrait: "IDs/Faust/Portraits/BL_Faust.jpg", rarity: "ØØØ" },
-    { sinner: "Faust", idName: "Heishou Pack - Mao Branch Adept", image: "IDs/Faust/Heishou_Faust.webp", portrait: "IDs/Faust/Portraits/Heishou_Faust.jpg", rarity: "ØØØ" },
-    { sinner: "Faust", idName: "The House of Spiders: The Ring Apprentice", image: "IDs/Faust/Ring_Faust.webp", portrait: "IDs/Faust/Portraits/Ring_Faust.jpg", rarity: "ØØØ" },
-    { sinner: "Faust", idName: "The Index Proselyte:【Paper Slip】", image: "IDs/Faust/Index_Faust.webp", portrait: "IDs/Faust/Portraits/Index_Faust.jpg", rarity: "ØØØ" },
-    { sinner: "Faust", idName: "LCE E.G.O::Ardor Blossom Star", image: "IDs/Faust/Ardor_Faust.webp", portrait: "IDs/Faust/Portraits/Ardor_Faust.jpg", rarity: "ØØØ" },
-    { sinner: "Faust", idName: "Lobotomy E.G.O::Regret", image: "IDs/Faust/Regret_Faust.webp", portrait: "IDs/Faust/Portraits/Regret_Faust.jpg", rarity: "ØØØ" },
-    { sinner: "Faust", idName: "MultiCrack Office Rep", image: "IDs/Faust/MCR_Faust.webp", portrait: "IDs/Faust/Portraits/MCR_Faust.jpg", rarity: "ØØØ" },
-    { sinner: "Faust", idName: "The One Who Grips", image: "IDs/Faust/Grips_Faust.webp", portrait: "IDs/Faust/Portraits/Grips_Faust.jpg", rarity: "ØØØ" },
-    { sinner: "Faust", idName: "Seven Assoc. South Section 4", image: "IDs/Faust/SA4_Faust.webp", portrait: "IDs/Faust/Portraits/SA4_Faust.jpg", rarity: "ØØØ" },
-    { sinner: "Faust", idName: "Shi Assoc. East Section 3", image: "IDs/Faust/SE3_Faust.webp", portrait: "IDs/Faust/Portraits/SE3_Faust.jpg", rarity: "ØØØ" }
+    { sinner: "Faust", idName: "LCB Sinner", image: "IDs/Faust/LCB_Faust.webp", portrait: "IDs/Faust/Portraits/LCB_Faust.jpg", 
+        quote: "It's Faust. A genius with whom you're lucky to cross paths even once in your life.", skills: faustskillData.LCBFaust, voiceline: "IDs/Faust/Voicelines/LCB.wav", rarity: "Ø" },
+    { sinner: "Faust", idName: "Lobotomy Corp. Remnant", image: "IDs/Faust/LCR_Faust.webp", portrait: "IDs/Faust/Portraits/LCR_Faust.jpg", 
+        quote: "This is Faust, a pleasure to meet you.", skills: faustskillData.LobotomyFaust, voiceline: "IDs/Faust/Voicelines/Lobotomy.wav", rarity: "ØØ" },
+    { sinner: "Faust", idName: "W Corp. L2 Cleanup Agent", image: "IDs/Faust/WCorp_Faust.webp", portrait: "IDs/Faust/Portraits/WCorp_Faust.jpg", 
+        quote: "Your problems... will be dealt with posthaste.", skills: faustskillData.WCorpFaust, voiceline: "IDs/Faust/Voicelines/WCorp.wav", rarity: "ØØ" },
+    { sinner: "Faust", idName: "Wuthering Heights Butler", image: "IDs/Faust/WH_Faust.webp", portrait: "IDs/Faust/Portraits/WH_Faust.jpg", 
+        quote: "Excuse me. Here is a cup of afternoon tea, courtesy of this house. Please, enjoy your time here.", skills: faustskillData.ButlerFaust, voiceline: "IDs/Faust/Voicelines/Butler.ogg", rarity: "ØØ" },
+    { sinner: "Faust", idName: "Zwei Assoc. South Section 4", image: "IDs/Faust/ZS4_Faust.webp", portrait: "IDs/Faust/Portraits/ZS4_Faust.jpg", 
+        quote: "Request received. This is Faust. Advancing to protection target location.", skills: faustskillData.ZweiFaust, voiceline: "IDs/Faust/Voicelines/Zwei.wav", rarity: "ØØ" },
+    { sinner: "Faust", idName: "Blade Lineage Salsu", image: "IDs/Faust/BL_Faust.webp", portrait: "IDs/Faust/Portraits/BL_Faust.jpg", 
+        quote: "A night before a battle is always so silent. Ah, and the moon has waxed full tonight, too.", skills: faustskillData.BladeFaust, voiceline: "IDs/Faust/Voicelines/Blade.wav", rarity: "ØØØ" },
+    { sinner: "Faust", idName: "Heishou Pack - Mao Branch Adept", image: "IDs/Faust/Heishou_Faust.webp", portrait: "IDs/Faust/Portraits/Heishou_Faust.jpg", 
+        quote: "That answer will suffice, my lord.", skills: faustskillData.HeishouFaust, voiceline: "IDs/Faust/Voicelines/Heishou.wav", rarity: "ØØØ" },
+    { sinner: "Faust", idName: "The House of Spiders: The Ring Apprentice", image: "IDs/Faust/Ring_Faust.webp", portrait: "IDs/Faust/Portraits/Ring_Faust.jpg", 
+        quote: "Have you woken up, Fascia? Faust has been waiting-there is a new friend Faust wants to introduce to Fascia. How is it? Such a splendid piece of corpus our new friend has, yes?", 
+        skills: faustskillData.RingFaust, voiceline: "IDs/Faust/Voicelines/Ring.wav", rarity: "ØØØ" },
+    { sinner: "Faust", idName: "The Index Proselyte:【Paper Slip】", image: "IDs/Faust/Index_Faust.webp", portrait: "IDs/Faust/Portraits/Index_Faust.jpg", 
+        quote: "You may brood over curiosities regarding the Will of the Prescript, yet inquiry bears no weight in its execution. What is absolute can only be obeyed.",
+        skills: faustskillData.IndexFaust, voiceline: "IDs/Faust/Voicelines/Index.wav", rarity: "ØØØ" },
+    { sinner: "Faust", idName: "LCE E.G.O::Ardor Blossom Star", image: "IDs/Faust/Ardor_Faust.webp", portrait: "IDs/Faust/Portraits/Ardor_Faust.jpg", 
+        quote: "Subject's engagement threat level, moderately high. However, considering its self-destructive nature under specific circumstances... Ardor Blossom Moth final designation: WAW-5.",
+        skills: faustskillData.LCEFaust, voiceline: "IDs/Faust/Voicelines/LCE.wav", rarity: "ØØØ" },
+    { sinner: "Faust", idName: "Lobotomy E.G.O::Regret", image: "IDs/Faust/Regret_Faust.webp", portrait: "IDs/Faust/Portraits/Regret_Faust.jpg", 
+        quote: "Starting work on the Contained Abnormality T-01-54.", skills: faustskillData.RegretFaust, voiceline: "IDs/Faust/Voicelines/Regret.ogg", rarity: "ØØØ" },
+    { sinner: "Faust", idName: "MultiCrack Office Rep", image: "IDs/Faust/MCR_Faust.webp", portrait: "IDs/Faust/Portraits/MCR_Faust.jpg",
+        quote: "While there are numerous deficiencies and points of failure to this plan, Faust will hone it into utter, unfailing perfection.",
+        skills: faustskillData.MultiCrackFaust, voiceline: "IDs/Faust/Voicelines/MultiCrack.ogg", rarity: "ØØØ" },
+    { sinner: "Faust", idName: "The One Who Grips", image: "IDs/Faust/Grips_Faust.webp", portrait: "IDs/Faust/Portraits/Grips_Faust.jpg",
+        quote: "Will you join me... in the great task to purify the abominable filth?", skills: faustskillData.NCorpFaust, voiceline: "IDs/Faust/Voicelines/NCorp.wav", rarity: "ØØØ" },
+    { sinner: "Faust", idName: "Seven Assoc. South Section 4", image: "IDs/Faust/SA4_Faust.webp", portrait: "IDs/Faust/Portraits/SA4_Faust.jpg", 
+        quote: "Welcome. I will take your orders here.", skills: faustskillData.SevenFaust, voiceline: "IDs/Faust/Voicelines/Seven.wav", rarity: "ØØØ" },
+    { sinner: "Faust", idName: "Shi Assoc. East Section 3", image: "IDs/Faust/SE3_Faust.webp", portrait: "IDs/Faust/Portraits/SE3_Faust.jpg", 
+        quote: "Rain pelts awake hearts, Alleyways puddle with steps; The rest is silence.", skills: faustskillData.ShiFaust, voiceline: "IDs/Faust/Voicelines/Shi.wav", rarity: "ØØØ" }
     // { sinner: "Faust", idName: "", image: "IDs/Faust/_Faust.webp", portrait: "IDs/Faust/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 
