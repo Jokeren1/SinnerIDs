@@ -1,6 +1,7 @@
 import type { SinnerID } from "./type.js";
 import { yiSangskillData } from "./SkillData/yiSang.js";
 import { faustskillData } from "./SkillData/Faust.js";
+import { donskillData } from "./SkillData/Don.js";
 
 export const yiSangIDs: SinnerID[] = [
     { sinner: "Yi Sang", idName: "LCB Sinner", image: "IDs/YiSang/LCB_Yi_Sang.webp", portrait: "IDs/YiSang/Portraits/LCB_Yi_Sang.jpg", 
@@ -81,20 +82,43 @@ export const faustIDs: SinnerID[] = [
 ];
 
 export const donIDs: SinnerID[] = [
-    { sinner: "Don Quixote", idName: "LCB Sinner", image: "IDs/Don/LCB_Don.webp", portrait: "IDs/Don/Portraits/LCB_Don.jpg", rarity: "Ø" },
-    { sinner: "Don Quixote", idName: "Blade Lineage Salsu", image: "IDs/Don/BL_Don.webp", portrait: "IDs/Don/Portraits/BL_Don.jpg", rarity: "ØØ" },
-    { sinner: "Don Quixote", idName: "Lobotomy E.G.O::Lantern", image: "IDs/Don/Lantern_Don.webp", portrait: "IDs/Don/Portraits/Lantern_Don.jpg", rarity: "ØØ" },
-    { sinner: "Don Quixote", idName: "N Corp. Mittelhammer", image: "IDs/Don/NCorp_Don.webp", portrait: "IDs/Don/Portraits/NCorp_Don.jpg", rarity: "ØØ" },
-    { sinner: "Don Quixote", idName: "Shi Assoc. South Section 5 Director", image: "IDs/Don/SA5_Don.webp", portrait: "IDs/Don/Portraits/SA5_Don.jpg", rarity: "ØØ" },
-    { sinner: "Don Quixote", idName: "Cinq Assoc. East Section 3", image: "IDs/Don/CE3_Don.webp", portrait: "IDs/Don/Portraits/CE3_Don.jpg", rarity: "ØØØ" },
-    { sinner: "Don Quixote", idName: "Cinq Assoc. South Section 5 Director", image: "IDs/Don/CS5_Don.webp", portrait: "IDs/Don/Portraits/CS5_Don.jpg", rarity: "ØØØ" },
-    { sinner: "Don Quixote", idName: "Heishou Pack - Wei Branch", image: "IDs/Don/Heishou_Don.webp", portrait: "IDs/Don/Portraits/Heishou_Don.jpg", rarity: "ØØØ" },
-    { sinner: "Don Quixote", idName: "The Index Proxy - Effloresced E.G.O::Procuration", image: "IDs/Don/Index_Don.webp", portrait: "IDs/Don/Portraits/Index_Don.jpg", rarity: "ØØØ" },
-    { sinner: "Don Quixote", idName: "Lobotomy E.G.O::In the Name of Love and Hate", image: "IDs/Don/Love_Don.webp", portrait: "IDs/Don/Portraits/Love_Don.jpg", rarity: "ØØØ" },
-    { sinner: "Don Quixote", idName: "The Manager of La Manchaland", image: "IDs/Don/Manager_Don.webp", portrait: "IDs/Don/Portraits/Manager_Don.jpg", rarity: "ØØØ" },
-    { sinner: "Don Quixote", idName: "The Middle Little Sister", image: "IDs/Don/Middle_Don.webp", portrait: "IDs/Don/Portraits/Middle_Don.jpg", rarity: "ØØØ" },
-    { sinner: "Don Quixote", idName: "T Corp. Class 3 Collection Staff", image: "IDs/Don/TCorp_Don.webp", portrait: "IDs/Don/Portraits/TCorp_Don.jpg", rarity: "ØØØ" },
-    { sinner: "Don Quixote", idName: "W Corp.L3 Cleanup Agent", image: "IDs/Don/WCorp_Don.webp", portrait: "IDs/Don/Portraits/WCorp_Don.jpg", rarity: "ØØØ" }
+    { sinner: "Don Quixote", idName: "LCB Sinner", image: "IDs/Don/LCB_Don.webp", portrait: "IDs/Don/Portraits/LCB_Don.jpg", 
+        quote: "Hath my time come? I am Don Quixote!", skills: donskillData.LCBDon, voiceline: "IDs/Don/Voicelines/LCB.wav", rarity: "Ø" },
+    { sinner: "Don Quixote", idName: "Blade Lineage Salsu", image: "IDs/Don/BL_Don.webp", portrait: "IDs/Don/Portraits/BL_Don.jpg", 
+        quote: "The way of... Wine? Drinking etiquette? Forsooth, I am quite unaquainted with that subject. Kaugh, 't-tis quite bitter!", 
+        skills: donskillData.BladeDon, voiceline: "IDs/Don/Voicelines/Blade.ogg", rarity: "ØØ" },
+    { sinner: "Don Quixote", idName: "Lobotomy E.G.O::Lantern", image: "IDs/Don/Lantern_Don.webp", portrait: "IDs/Don/Portraits/Lantern_Don.jpg", 
+        quote: "Have thee ever beheld a Lantern so grossly incandescent? Remain at my side, and darkness shall never consume us!", 
+        skills: donskillData.LanternDon, voiceline: "IDs/Don/Voicelines/Lantern.ogg", rarity: "ØØ" },
+    { sinner: "Don Quixote", idName: "N Corp. Mittelhammer", image: "IDs/Don/NCorp_Don.webp", portrait: "IDs/Don/Portraits/NCorp_Don.jpg", 
+        quote: "The hammer of justice purgeth evil. Dost thou require mine aid? Fuhuhu...", skills: donskillData.NCorpDon, voiceline: "IDs/Don/Voicelines/NCorp.wav", rarity: "ØØ" },
+    { sinner: "Don Quixote", idName: "Shi Assoc. South Section 5 Director", image: "IDs/Don/SA5_Don.webp", portrait: "IDs/Don/Portraits/SA5_Don.jpg", 
+        quote: "Hurrah, justice hath arrived! I shall drive all villains into equal demise!", skills: donskillData.ShiDon, voiceline: "IDs/Don/Voicelines/Shi.wav", rarity: "ØØ" },
+    { sinner: "Don Quixote", idName: "Cinq Assoc. East Section 3", image: "IDs/Don/CE3_Don.webp", portrait: "IDs/Don/Portraits/CE3_Don.jpg", 
+        quote: "Aha, so this explaineth the slight blandess of they banquet! To prepare such spicy condiments in the form of a brawl... Forsooth, 'twas most unexpected!", 
+        skills: donskillData.CinqEDon, voiceline: "IDs/Don/Voicelines/CinqE.wav", rarity: "ØØØ" },
+    { sinner: "Don Quixote", idName: "Cinq Assoc. South Section 5 Director", image: "IDs/Don/CS5_Don.webp", portrait: "IDs/Don/Portraits/CS5_Don.jpg", 
+        quote: "Aha! Art thou my partner in duel!?", skills: donskillData.CinqSDon, voiceline: "IDs/Don/Voicelines/CinqS.wav", rarity: "ØØØ" },
+    { sinner: "Don Quixote", idName: "Heishou Pack - Wei Branch", image: "IDs/Don/Heishou_Don.webp", portrait: "IDs/Don/Portraits/Heishou_Don.jpg", 
+        quote: "Ye jest, surely... how can ye speak of heat...? By my troth, *groan* I could perish of cold this very moment... Achoo!", 
+        skills: donskillData.HeishouDon, voiceline: "IDs/Don/Voicelines/Heishou.wav", rarity: "ØØØ" },
+    { sinner: "Don Quixote", idName: "The Index Proxy - Effloresced E.G.O::Procuration", image: "IDs/Don/Index_Don.webp", portrait: "IDs/Don/Portraits/Index_Don.jpg", 
+        quote: `"Those whose eyes have met, and those whose eyes have not." "72 minutes." "Kill." 'Tis thou. Flee thee not, for the P-Prescript pointeth to thee.`, 
+        skills: donskillData.IndexDon, voiceline: "IDs/Don/Voicelines/Index.wav", rarity: "ØØØ" },
+    { sinner: "Don Quixote", idName: "Lobotomy E.G.O::In the Name of Love and Hate", image: "IDs/Don/Love_Don.webp", portrait: "IDs/Don/Portraits/Love_Don.jpg", 
+        quote: `Behold! Herein are chronicled the tales of protectors of love and peace! Heh heh, verily, they are quite like us Magical Maidens! "Oooh...! So that's what Fixers do, huh?"`, 
+        skills: donskillData.QoHDon, voiceline: "IDs/Don/Voicelines/QoH.wav", rarity: "ØØØ" },
+    { sinner: "Don Quixote", idName: "The Manager of La Manchaland", image: "IDs/Don/Manager_Don.webp", portrait: "IDs/Don/Portraits/Manager_Don.jpg", 
+        quote: "The Family will be well-cared for. ...After all, the onus always fell on me to provide for what you abandoned.", 
+        skills: donskillData.ManagerDon, voiceline: "IDs/Don/Voicelines/Manager.ogg", rarity: "ØØØ" },
+    { sinner: "Don Quixote", idName: "The Middle Little Sister", image: "IDs/Don/Middle_Don.webp", portrait: "IDs/Don/Portraits/Middle_Don.jpg", 
+        quote: "I am Don Quixote! A Little Sister of the Middle, and a trusty minion to the Big Brother! Pleased to make thine acqaintance!",
+        skills: donskillData.MiddleDon, voiceline: "IDs/Don/Voicelines/Middle.ogg", rarity: "ØØØ" },
+    { sinner: "Don Quixote", idName: "T Corp. Class 3 Collection Staff", image: "IDs/Don/TCorp_Don.webp", portrait: "IDs/Don/Portraits/TCorp_Don.jpg", 
+        quote: "Ahem~ Pray, pardon mine intrusion! I am a T Corp. Class 3 Employee of the Time Collections Agency! Thou must already be aware of our reason for visit, indeed?", 
+        skills: donskillData.TCorpDon, voiceline: "IDs/Don/Voicelines/TCorp.ogg", rarity: "ØØØ" },
+    { sinner: "Don Quixote", idName: "W Corp.L3 Cleanup Agent", image: "IDs/Don/WCorp_Don.webp", portrait: "IDs/Don/Portraits/WCorp_Don.jpg", 
+        quote: "Welcome aboard, dearest passengers!!! I. Have. Arrived!!!", skills: donskillData.WCorpDon, voiceline: "IDs/Don/Voicelines/WCorp.wav", rarity: "ØØØ" }
     // { sinner: "Don Quixote", idName: "", image: "IDs/Don/_Don.webp", portrait: "IDs/Don/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 
