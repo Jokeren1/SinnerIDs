@@ -16,14 +16,20 @@ const sinners = [
 const sinnerGrid = document.getElementById("sinnerGrid");
 const mainMenu = document.getElementById("mainMenu");
 const idMenu = document.getElementById("idMenu");
+const idViewer = document.getElementById("idViewer");
 const selectedSinnerName = document.getElementById("selectedSinnerName");
 const idGrid = document.getElementById("idGrid");
 const backToMainButton = document.getElementById("backButton");
+const backToIDMenuButton = document.getElementById("backButton2");
 const equippedIDPortrait = document.createElement("img");
 const equippedIDName = document.createElement("p");
 backToMainButton.addEventListener("click", () => {
     idMenu.hidden = true;
     mainMenu.hidden = false;
+});
+backToIDMenuButton.addEventListener("click", () => {
+    idViewer.hidden = true;
+    idMenu.hidden = false;
 });
 function createSinnerCard(sinner) {
     const card = document.createElement("div");
@@ -67,9 +73,19 @@ function openIDMenu(sinner) {
         image.src = id.portrait;
         card.appendChild(image);
         card.addEventListener("click", () => {
+            console.log(`Viewing details for ID: ${id.idName}`);
             equippedIDPortrait.src = id.portrait;
             equippedIDName.textContent = id.idName;
+            viewIDDetails(id);
         });
         idGrid.appendChild(card);
     }
+}
+function viewIDDetails(id) {
+    mainMenu.hidden = true;
+    idMenu.hidden = true;
+    idViewer.hidden = false;
+    const fullArt = document.getElementById("FullArt");
+    fullArt.src = id.image;
+    fullArt.alt = id.idName;
 }

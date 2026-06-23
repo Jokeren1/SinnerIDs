@@ -1,20 +1,32 @@
+import { yiSangskillData } from "./SkillData/yiSang.js";
 export const yiSangIDs = [
-    { sinner: "Yi Sang", idName: "LCB Sinner", image: "IDs/YiSang/LCB_Yi_Sang.webp", portrait: "IDs/YiSang/Portraits/LCB_Yi_Sang.jpg", rarity: "Ø" },
-    { sinner: "Yi Sang", idName: "Dieci Assoc. South Section 4", image: "IDs/YiSang/DS4_YiSang.webp", portrait: "IDs/YiSang/Portraits/DS4_YiSang.jpg", rarity: "ØØ" },
-    { sinner: "Yi Sang", idName: "LCE E.G.O::Lantern", image: "IDs/YiSang/LCE_YiSang.webp", portrait: "IDs/YiSang/Portraits/LCE_YiSang.jpg", rarity: "ØØ" },
-    { sinner: "Yi Sang", idName: "Molar Office Fixer", image: "IDs/YiSang/MOF_YiSang.webp", portrait: "IDs/YiSang/Portraits/MOF_YiSang.jpg", rarity: "ØØ" },
-    { sinner: "Yi Sang", idName: "The Pequod First Mate", image: "IDs/YiSang/TPF_YiSang.webp", portrait: "IDs/YiSang/Portraits/TPF_YiSang.jpg", rarity: "ØØ" },
-    { sinner: "Yi Sang", idName: "Seven Assoc. South Section 6", image: "IDs/YiSang/SA6_YiSang.webp", portrait: "IDs/YiSang/Portraits/SA6_YiSang.jpg", rarity: "ØØ" },
-    { sinner: "Yi Sang", idName: "Blade Lineage Salsu", image: "IDs/YiSang/BL_YiSang.webp", portrait: "IDs/YiSang/Portraits/BL_YiSang.jpg", rarity: "ØØØ" },
-    { sinner: "Yi Sang", idName: "Effloresced E.G.O::SpiceBush", image: "IDs/YiSang/Spicebush_YiSang.webp", portrait: "IDs/YiSang/Portraits/Spicebush_YiSang.jpg", rarity: "ØØØ" },
-    { sinner: "Yi Sang", idName: "Heishou Pack - Wu Branch Adept Yi Sang", image: "IDs/YiSang/Heishou_YiSang.webp", portrait: "IDs/YiSang/Portraits/Heishou_YiSang.jpg", rarity: "ØØØ" },
+    { sinner: "Yi Sang", idName: "LCB Sinner", image: "IDs/YiSang/LCB_Yi_Sang.webp", portrait: "IDs/YiSang/Portraits/LCB_Yi_Sang.jpg",
+        quote: "I am Yi Sang. My name is all I have to say.", skills: yiSangskillData.LCBYiSang, voiceline: "IDs/YiSang/Voicelines/LCB_YiSang.wav", rarity: "Ø" },
+    { sinner: "Yi Sang", idName: "Dieci Assoc. South Section 4", image: "IDs/YiSang/DS4_YiSang.webp", portrait: "IDs/YiSang/Portraits/DS4_YiSang.jpg",
+        quote: "I am Yi Sang. Please remain silent, as you find yourself at the temple of knowledge.", skills: yiSangskillData.DieciYiSang, voiceline: "IDs/YiSang/Voicelines/Dieci_YiSang.ogg", rarity: "ØØ" },
+    { sinner: "Yi Sang", idName: "LCE E.G.O::Lantern", image: "IDs/YiSang/LCE_YiSang.webp", portrait: "IDs/YiSang/Portraits/LCE_YiSang.jpg",
+        quote: "Ah, rest awhile here, dear fellow. ... And now that you are indeed here, will you assist me in organizing this experiment data? Ah! Abscond from here you will not, for there is no escape until this work is complete.",
+        skills: yiSangskillData.LCEYiSang, voiceline: "IDs/YiSang/Voicelines/LCE_YiSang.wav", rarity: "ØØ" },
+    { sinner: "Yi Sang", idName: "Molar Office Fixer", image: "IDs/YiSang/MOF_YiSang.webp", portrait: "IDs/YiSang/Portraits/MOF_YiSang.jpg",
+        quote: "Alas, it appears that we must involve ourselves in this matter.", skills: yiSangskillData.MolarYiSang, voiceline: "IDs/YiSang/Voicelines/Molar_YiSang.wav", rarity: "ØØ" },
+    { sinner: "Yi Sang", idName: "The Pequod First Mate", image: "IDs/YiSang/TPF_YiSang.webp", portrait: "IDs/YiSang/Portraits/TPF_YiSang.jpg",
+        quote: "You may call me Yi Sang. I am the first mate of the Pequod.", skills: yiSangskillData.PequodYiSang, voiceline: "IDs/YiSang/Voicelines/Pequod.ogg", rarity: "ØØ" },
+    { sinner: "Yi Sang", idName: "Seven Assoc. South Section 6", image: "IDs/YiSang/SA6_YiSang.webp", portrait: "IDs/YiSang/Portraits/SA6_YiSang.jpg",
+        quote: "You need not hide any secrets from me.", skills: yiSangskillData.SevenYiSang, voiceline: "IDs/YiSang/Voicelines/Seven.wav", rarity: "ØØ" },
+    { sinner: "Yi Sang", idName: "Blade Lineage Salsu", image: "IDs/YiSang/BL_YiSang.webp", portrait: "IDs/YiSang/Portraits/BL_YiSang.jpg",
+        quote: "I know of the ways to cut through a heart with elegance and eccentricity.", skills: yiSangskillData.BladeYiSang, voiceline: "IDs/YiSang/Voicelines/Blade.wav", rarity: "ØØØ" },
+    { sinner: "Yi Sang", idName: "Effloresced E.G.O::SpiceBush", image: "IDs/YiSang/Spicebush_YiSang.webp", portrait: "IDs/YiSang/Portraits/Spicebush_YiSang.jpg",
+        quote: "Welcome. Now what does your heart say... about what you see from my heart?", skills: yiSangskillData.EfflorescedYiSang, voiceline: "IDs/YiSang/Voicelines/Effloresced.wav", rarity: "ØØØ" },
+    { sinner: "Yi Sang", idName: "Heishou Pack - Wu Branch Adept Yi Sang", image: "IDs/YiSang/Heishou_YiSang.webp", portrait: "IDs/YiSang/Portraits/Heishou_YiSang.jpg",
+        quote: "His Majesty's Hongyuan converges with your vision for Hongyuan at its culmination, yound Miss. I intend to realize your dream that has failed to bloom, though his path be riddled with bloodshed. Thus, Young Miss... please... never forgive this wretched guard of yours.",
+        skills: yiSangskillData.HeishouYiSang, voiceline: "IDs/YiSang/Voicelines/Heishou.wav", rarity: "ØØØ" },
     { sinner: "Yi Sang", idName: "The House of Spiders: The Index Nursefather", image: "IDs/YiSang/Index_YiSang.webp", portrait: "IDs/YiSang/Portraits/Index_YiSang.jpg", rarity: "ØØØ" },
     { sinner: "Yi Sang", idName: "Liu Assoc. South Section 3", image: "IDs/YiSang/LS3_YiSang.webp", portrait: "IDs/YiSang/Portraits/LS3_YiSang.jpg", rarity: "ØØØ" },
     { sinner: "Yi Sang", idName: "Lobotomy E.G.O::Solemn Lament", image: "IDs/YiSang/Solemn_YiSang.webp", portrait: "IDs/YiSang/Portraits/Solemn_YiSang.jpg", rarity: "ØØØ" },
     { sinner: "Yi Sang", idName: "N Corp. E.G.O::Fell Bullet", image: "IDs/YiSang/Fell_YiSang.webp", portrait: "IDs/YiSang/Portraits/Fell_YiSang.jpg", rarity: "ØØØ" },
     { sinner: "Yi Sang", idName: "The Ring Pointillist Student", image: "IDs/YiSang/Ring_YiSang.webp", portrait: "IDs/YiSang/Portraits/Ring_YiSang.jpg", rarity: "ØØØ" },
     { sinner: "Yi Sang", idName: "W Corp. L3 Cleanup Agent", image: "IDs/YiSang/WCorp_YiSang.webp", portrait: "IDs/YiSang/Portraits/WCorp_YiSang.jpg", rarity: "ØØØ" }
-    // { sinner: "Yi Sang", idName: "", image: "IDs/YiSang/_YiSang.webp", portrait: "IDs/YiSang/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Yi Sang", idName: "", image: "IDs/YiSang/_YiSang.webp", portrait: "IDs/YiSang/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const faustIDs = [
     { sinner: "Faust", idName: "LCB Sinner", image: "IDs/Faust/LCB_Faust.webp", portrait: "IDs/Faust/Portraits/LCB_Faust.jpg", rarity: "Ø" },
@@ -32,7 +44,7 @@ export const faustIDs = [
     { sinner: "Faust", idName: "The One Who Grips", image: "IDs/Faust/Grips_Faust.webp", portrait: "IDs/Faust/Portraits/Grips_Faust.jpg", rarity: "ØØØ" },
     { sinner: "Faust", idName: "Seven Assoc. South Section 4", image: "IDs/Faust/SA4_Faust.webp", portrait: "IDs/Faust/Portraits/SA4_Faust.jpg", rarity: "ØØØ" },
     { sinner: "Faust", idName: "Shi Assoc. East Section 3", image: "IDs/Faust/SE3_Faust.webp", portrait: "IDs/Faust/Portraits/SE3_Faust.jpg", rarity: "ØØØ" }
-    // { sinner: "Faust", idName: "", image: "IDs/Faust/_Faust.webp", portrait: "IDs/Faust/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Faust", idName: "", image: "IDs/Faust/_Faust.webp", portrait: "IDs/Faust/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const donIDs = [
     { sinner: "Don Quixote", idName: "LCB Sinner", image: "IDs/Don/LCB_Don.webp", portrait: "IDs/Don/Portraits/LCB_Don.jpg", rarity: "Ø" },
@@ -49,7 +61,7 @@ export const donIDs = [
     { sinner: "Don Quixote", idName: "The Middle Little Sister", image: "IDs/Don/Middle_Don.webp", portrait: "IDs/Don/Portraits/Middle_Don.jpg", rarity: "ØØØ" },
     { sinner: "Don Quixote", idName: "T Corp. Class 3 Collection Staff", image: "IDs/Don/TCorp_Don.webp", portrait: "IDs/Don/Portraits/TCorp_Don.jpg", rarity: "ØØØ" },
     { sinner: "Don Quixote", idName: "W Corp.L3 Cleanup Agent", image: "IDs/Don/WCorp_Don.webp", portrait: "IDs/Don/Portraits/WCorp_Don.jpg", rarity: "ØØØ" }
-    // { sinner: "Don Quixote", idName: "", image: "IDs/Don/_Don.webp", portrait: "IDs/Don/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Don Quixote", idName: "", image: "IDs/Don/_Don.webp", portrait: "IDs/Don/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const ryoshuIDs = [
     { sinner: "Ryoshu", idName: "LCB Sinner", image: "IDs/Ryoshu/LCB_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/LCB_Ryoshu.jpg", rarity: "Ø" },
@@ -67,7 +79,7 @@ export const ryoshuIDs = [
     { sinner: "Ryoshu", idName: "N Corp. E.G.O::Contempy, Awe", image: "IDs/Ryoshu/NCorp_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/NCorp_Ryoshu.jpg", rarity: "ØØØ" },
     { sinner: "Ryoshu", idName: "R.B. Chef Cuisine", image: "IDs/Ryoshu/RB_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/RB_Ryoshu.jpg", rarity: "ØØØ" },
     { sinner: "Ryoshu", idName: "W Corp. L3 Cleanup Agent", image: "IDs/Ryoshu/WCorp_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/WCorp_Ryoshu.jpg", rarity: "ØØØ" }
-    // { sinner: "Ryoshu", idName: "", image: "IDs/Ryoshu/_Ryoshu.webp", portrait: "IDs/Ryoshу/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Ryoshu", idName: "", image: "IDs/Ryoshu/_Ryoshu.webp", portrait: "IDs/Ryoshу/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const meursaultIDs = [
     { sinner: "Meursault", idName: "LCB Sinner", image: "IDs/Meursault/LCB_Meursault.webp", portrait: "IDs/Meursault/Portraits/LCB_Meursault.jpg", rarity: "Ø" },
@@ -85,7 +97,7 @@ export const meursaultIDs = [
     { sinner: "Meursault", idName: "The Ring Fauvist Student", image: "IDs/Meursault/Ring_Meursault.webp", portrait: "IDs/Meursault/Portraits/Ring_Meursault.jpg", rarity: "ØØØ" },
     { sinner: "Meursault", idName: "The Thumb East Capo IIII", image: "IDs/Meursault/Thumb_Meursault.webp", portrait: "IDs/Meursault/Portraits/Thumb_Meursault.jpg", rarity: "ØØØ" },
     { sinner: "Meursault", idName: "W Corp. L3 Cleanup Agent", image: "IDs/Meursault/WCorp_Meursault.webp", portrait: "IDs/Meursault/Portraits/WCorp_Meursault.jpg", rarity: "ØØØ" }
-    // { sinner: "Meursault", idName: "", image: "IDs/Meursault/_Meursault.webp", portrait: "IDs/Meursault/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Meursault", idName: "", image: "IDs/Meursault/_Meursault.webp", portrait: "IDs/Meursault/Portraits/", quote: "",voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const hongLuIDs = [
     { sinner: "Hong Lu", idName: "LCB Sinner", image: "IDs/HongLu/LCB_HongLu.webp", portrait: "IDs/HongLu/Portraits/LCB_HongLu.jpg", rarity: "Ø" },
@@ -103,7 +115,7 @@ export const hongLuIDs = [
     { sinner: "Hong Lu", idName: "R Corp. 4th Pack Reindeer", image: "IDs/HongLu/RCorp_HongLu.webp", portrait: "IDs/HongLu/Portraits/RCorp_HongLu.jpg", rarity: "ØØØ" },
     { sinner: "Hong Lu", idName: "S Corp. Ch'unokkun", image: "IDs/HongLu/SCorp_HongLu.webp", portrait: "IDs/HongLu/Portraits/SCorp_HongLu.jpg", rarity: "ØØØ" },
     { sinner: "Hong Lu", idName: "Tingtang Gang Gangleader", image: "IDs/HongLu/Tingtang_HongLu.webp", portrait: "IDs/HongLu/Portraits/Tingtang_HongLu.jpg", rarity: "ØØØ" }
-    // { sinner: "Hong Lu", idName: "", image: "IDs/HongLu/_HongLu.webp", portrait: "IDs/HongLu/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Hong Lu", idName: "", image: "IDs/HongLu/_HongLu.webp", portrait: "IDs/HongLu/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const heathcliffIDs = [
     { sinner: "Heathcliff", idName: "LCB Sinner", image: "IDs/Heathcliff/LCB_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/LCB_Heathcliff.jpg", rarity: "Ø" },
@@ -121,8 +133,8 @@ export const heathcliffIDs = [
     { sinner: "Heathcliff", idName: "W Corp. L4 Cleanup Agent - CCA", image: "IDs/Heathcliff/WCorp_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/WCorp_Heathcliff.jpg", rarity: "ØØØ" },
     { sinner: "Heathcliff", idName: "Wild Hunt", image: "IDs/Heathcliff/Wild_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Wild_Heathcliff.jpg", rarity: "ØØØ" },
     { sinner: "Heathcliff", idName: "Öufi Assoc. South Section 3", image: "IDs/Heathcliff/Oufi_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Oufi_Heathcliff.jpg", rarity: "ØØØ" }
-    // { sinner: "Heathcliff", idName: "The House of Spiders: The Thumb Apprentice", image: "IDs/Heathcliff/Thumb_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Thumb_Heathcliff.jpg", rarity: "ØØØ" } // When Thumb heathcliff comes out next week 
-    // { sinner: "Heathcliff", idName: "", image: "IDs/Heathcliff/_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Heathcliff", idName: "The House of Spiders: The Thumb Apprentice", image: "IDs/Heathcliff/Thumb_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Thumb_Heathcliff.jpg", quote: "", voiceline: "", rarity: "ØØØ" } // When Thumb heathcliff comes out next week 
+    // { sinner: "Heathcliff", idName: "", image: "IDs/Heathcliff/_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const ishmaelIDs = [
     { sinner: "Ishmael", idName: "LCB Sinner", image: "IDs/Ishmael/LCB_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/LCB_Ishmael.jpg", rarity: "Ø" },
@@ -140,7 +152,7 @@ export const ishmaelIDs = [
     { sinner: "Ishmael", idName: "The Pequod Captain", image: "IDs/Ishmael/Pequod_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/Pequod_Ishmael.jpg", rarity: "ØØØ" },
     { sinner: "Ishmael", idName: "R Corp. 4th Pack Reindeer", image: "IDs/Ishmael/RCorp_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/RCorp_Ishmael.jpg", rarity: "ØØØ" },
     { sinner: "Ishmael", idName: "Zwei Assoc. West Section 3", image: "IDs/Ishmael/Zwei_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/Zwei_Ishmael.jpg", rarity: "ØØØ" }
-    // { sinner: "Ishmael", idName: "", image: "IDs/Ishmael/_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Ishmael", idName: "", image: "IDs/Ishmael/_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const rodionIDs = [
     { sinner: "Rodion", idName: "LCB Sinner", image: "IDs/Rodion/LCB_Rodion.webp", portrait: "IDs/Rodion/Portraits/LCB_Rodion.jpg", rarity: "Ø" },
@@ -158,8 +170,8 @@ export const rodionIDs = [
     { sinner: "Rodion", idName: "R Corp. 4th Pack Reindeer", image: "IDs/Rodion/RCorp_Rodion.webp", portrait: "IDs/Rodion/Portraits/RCorp_Rodion.jpg", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "The Ring Fauvist Docent", image: "IDs/Rodion/Ring_Rodion.webp", portrait: "IDs/Rodion/Portraits/Ring_Rodion.jpg", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "Rosespanner Workshop Rep", image: "IDs/Rodion/Rosespanner_Rodion.webp", portrait: "IDs/Rodion/Portraits/Rosespanner_Rodion.jpg", rarity: "ØØØ" }
-    // { sinner: "Rodion", idName: "The House of Spiders: The Thumb Nursefather", image: "IDs/Rodion/Thumb_Rodion.webp", portrait: "IDs/Rodion/Portraits/Thumb_Rodion.jpg", rarity: "ØØØ" } When Thumb Rodion comes out next week
-    // { sinner: "Rodion", idName: "", image: "IDs/Rodion/_Rodion.webp", portrait: "IDs/Rodion/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Rodion", idName: "The House of Spiders: The Thumb Nursefather", image: "IDs/Rodion/Thumb_Rodion.webp", portrait: "IDs/Rodion/Portraits/Thumb_Rodion.jpg", quote: "", voiceline: "", rarity: "ØØØ" } When Thumb Rodion comes out next week
+    // { sinner: "Rodion", idName: "", image: "IDs/Rodion/_Rodion.webp", portrait: "IDs/Rodion/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const sinclairIDs = [
     { sinner: "Sinclair", idName: "LCB Sinner", image: "IDs/Sinclair/LCB_Sinclair.webp", portrait: "IDs/Sinclair/Portraits/LCB_Sinclair.jpg", rarity: "Ø" },
@@ -177,7 +189,7 @@ export const sinclairIDs = [
     { sinner: "Sinclair", idName: "The Middle Little Brother", image: "IDs/Sinclair/Middle_Sinclair.webp", portrait: "IDs/Sinclair/Portraits/Middle_Sinclair.jpg", rarity: "ØØØ" },
     { sinner: "Sinclair", idName: "The One Who Shall Grip", image: "IDs/Sinclair/Grip_Sinclair.webp", portrait: "IDs/Sinclair/Portraits/Grip_Sinclair.jpg", rarity: "ØØØ" },
     { sinner: "Sinclair", idName: "The Thumb East Soldato II", image: "IDs/Sinclair/Thumb_Sinclair.webp", portrait: "IDs/Sinclair/Portraits/Thumb_Sinclair.jpg", rarity: "ØØØ" }
-    // { sinner: "Sinclair", idName: "", image: "IDs/Sinclair/.webp", portrait: "IDs/Sinclair/Portraits/", rarity: "ØØØ" } For future use
+    // { sinner: "Sinclair", idName: "", image: "IDs/Sinclair/.webp", portrait: "IDs/Sinclair/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const outisIDs = [
     { sinner: "Outis", idName: "LCB Sinner", image: "IDs/Outis/LCB_Outis.webp", portrait: "IDs/Outis/Portraits/LCB_Outis.jpg", rarity: "ØØ" },
@@ -195,7 +207,7 @@ export const outisIDs = [
     { sinner: "Outis", idName: "T Corp. Class 3 VDCU Staff", image: "IDs/Outis/TCorp_Outis.webp", portrait: "IDs/Outis/Portraits/TCorp_Outis.jpg", rarity: "ØØØ" },
     { sinner: "Outis", idName: "W Corp. L3 Cleanup Captain", image: "IDs/Outis/WCorp_Outis.webp", portrait: "IDs/Outis/Portraits/WCorp_Outis.jpg", rarity: "ØØØ" },
     { sinner: "Outis", idName: "Wuthering Heights Chief Butler", image: "IDs/Outis/Butler_Outis.webp", portrait: "IDs/Outis/Portraits/Butler_Outis.jpg", rarity: "ØØØ" }
-    // { sinner: "Outis", idName: "", image: "IDs/Outis/_Outis.webp", portrait: "IDs/Outis/Portraits/", rarity:="ØØØ" } For future use
+    // { sinner: "Outis", idName: "", image: "IDs/Outis/_Outis.webp", portrait: "IDs/Outis/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 export const gregorIDs = [
     { sinner: "Gregor", idName: "LCB Sinner", image: "IDs/Gregor/LCB_Gregor.webp", portrait: "IDs/Gregor/Portraits/LCB_Gregor.jpg", rarity: "Ø" },
@@ -213,5 +225,5 @@ export const gregorIDs = [
     { sinner: "Gregor", idName: "The Priest of La Manchaland", image: "IDs/Gregor/Priest_Gregor.webp", portrait: "IDs/Gregor/Portraits/Priest_Gregor.jpg", rarity: "ØØØ" },
     { sinner: "Gregor", idName: "Twinhook Pirates First Mate", image: "IDs/Gregor/Twinhook_Gregor.webp", portrait: "IDs/Gregor/Portraits/Twinhook_Gregor.jpg", rarity: "ØØØ" },
     { sinner: "Gregor", idName: "Zwei Assoc. South Section 4", image: "IDs/Gregor/Zwei_Gregor.webp", portrait: "IDs/Gregor/Portraits/Zwei_Gregor.jpg", rarity: "ØØØ" }
-    // { sinner: "Gregor", idName: "", image: "IDs/Gregor/_Gregor.webp", portrait: "IDs/Gregor/Portraits/", rarity:="ØØØ" } For future use
+    // { sinner: "Gregor", idName: "", image: "IDs/Gregor/_Gregor.webp", portrait: "IDs/Gregor/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];

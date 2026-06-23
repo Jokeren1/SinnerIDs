@@ -6,4 +6,13 @@ export interface SinnerID {
     image: string;
     portrait: string;
     rarity: Rarity;
+    quote?: string;
+    skills?: Skill[];
+    voiceline?: string;
+}
+
+export interface Skill {
+    skillName: string;
+    icon?: string;
+    skillNum: string;
 }
