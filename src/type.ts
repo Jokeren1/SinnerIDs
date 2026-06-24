@@ -6,9 +6,9 @@ export interface SinnerID {
     image: string;
     portrait: string;
     rarity: Rarity;
-    quote?: string;
-    skills?: Skill[];
-    voiceline?: string;
+    quote?: string; // Remove ? once finalized quotes for all IDs are added
+    skills?: Skill[]; // Remove ? once finalized skills for all IDs are added
+    voiceline?: string; // Remove ? once finalized voicelines for all IDs are added
 }
 
 export interface Skill {

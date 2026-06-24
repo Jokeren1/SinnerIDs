@@ -2,6 +2,7 @@ import type { SinnerID } from "./type.js";
 import { yiSangskillData } from "./SkillData/yiSang.js";
 import { faustskillData } from "./SkillData/Faust.js";
 import { donskillData } from "./SkillData/Don.js";
+import { ryoshuskillData } from "./SkillData/Ryoshu.js";
 
 export const yiSangIDs: SinnerID[] = [
     { sinner: "Yi Sang", idName: "LCB Sinner", image: "IDs/YiSang/LCB_Yi_Sang.webp", portrait: "IDs/YiSang/Portraits/LCB_Yi_Sang.jpg", 
@@ -123,22 +124,43 @@ export const donIDs: SinnerID[] = [
 ];
 
 export const ryoshuIDs: SinnerID[] = [
-    { sinner: "Ryoshu", idName: "LCB Sinner", image: "IDs/Ryoshu/LCB_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/LCB_Ryoshu.jpg", rarity: "Ø" },
-    { sinner: "Ryoshu", idName: "District 20 Yurodivy Ryoshu", image: "IDs/Ryoshu/Yurodivy_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Yurodivy_Ryoshu.jpg", rarity: "ØØ" },
-    { sinner: "Ryoshu", idName: "LCCB Assistant Manager", image: "IDs/Ryoshu/LCCB_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/LCCB_Ryoshu.jpg", rarity: "ØØ" },
-    { sinner: "Ryoshu", idName: "Liu Assoc. South Section 4", image: "IDs/Ryoshu/LS4_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/LS4_Ryoshu.jpg", rarity: "ØØ" },
-    { sinner: "Ryoshu", idName: "Seven Assoc. South Section 6", image: "IDs/Ryoshu/SA6_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/SA6_Ryoshu.jpg", rarity: "ØØ" },
-    { sinner: "Ryoshu", idName: "Blade of the House of Spiders", image: "IDs/Ryoshu/HoS_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/HoS_Ryoshu.jpg", rarity: "ØØØ" },
-    { sinner: "Ryoshu", idName: "Drifting Blade of Hongyuan", image: "IDs/Ryoshu/Hongyuan_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Hongyuan_Ryoshu.jpg", rarity: "ØØØ" },
-    { sinner: "Ryoshu", idName: "Edgar Family Chief Butler", image: "IDs/Ryoshu/Edgar_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Edgar_Ryoshu.jpg", rarity: "ØØØ" },
-    { sinner: "Ryoshu", idName: "Heishou Pack - Mao Branch", image: "IDs/Ryoshu/Heishou_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Heishou_Ryoshu.jpg", rarity: "ØØØ" },
-    { sinner: "Ryoshu", idName: "Kurokumo Clan Wakashu", image: "IDs/Ryoshu/Kurokumo_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Kurokumo_Ryoshu.jpg", rarity: "ØØØ" },
-    { sinner: "Ryoshu", idName: "Lobotomy E.G.O::Faint Aroma & Solitude", image: "IDs/Ryoshu/Faint_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Faint_Ryoshu.jpg", rarity: "ØØØ" },
-    { sinner: "Ryoshu", idName: "Lobotomy E.G.O::Red Eyes & Penitence", image: "IDs/Ryoshu/Red_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Red_Ryoshu.jpg", rarity: "ØØØ" },
-    { sinner: "Ryoshu", idName: "N Corp. E.G.O::Contempy, Awe", image: "IDs/Ryoshu/NCorp_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/NCorp_Ryoshu.jpg", rarity: "ØØØ" },
-    { sinner: "Ryoshu", idName: "R.B. Chef Cuisine", image: "IDs/Ryoshu/RB_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/RB_Ryoshu.jpg", rarity: "ØØØ" },
-    { sinner: "Ryoshu", idName: "W Corp. L3 Cleanup Agent", image:"IDs/Ryoshu/WCorp_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/WCorp_Ryoshu.jpg", rarity: "ØØØ" }
-    // { sinner: "Ryoshu", idName: "", image: "IDs/Ryoshu/_Ryoshu.webp", portrait: "IDs/Ryoshу/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
+    { sinner: "Ryōshū", idName: "LCB Sinner", image: "IDs/Ryoshu/LCB_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/LCB_Ryoshu.jpg", 
+        quote: "It's Ryōshū. Shūre's nice to meet ya. ...Pft.", skills: ryoshuskillData.LCBRyoshu, voiceline: "IDs/Ryoshu/Voicelines/LCB.wav", rarity: "Ø" },
+    { sinner: "Ryōshū", idName: "District 20 Yurodivy Ryoshu", image: "IDs/Ryoshu/Yurodivy_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Yurodivy_Ryoshu.jpg", 
+        quote: "5 excavating screws for a pack of cigs? Sounds like you've got a screw loose yourself.", 
+        skills: ryoshuskillData.YurodivyRyoshu, voiceline: "IDs/Ryoshu/Voicelines/Yurodivy.ogg", rarity: "ØØ" },
+    { sinner: "Ryōshū", idName: "LCCB Assistant Manager", image: "IDs/Ryoshu/LCCB_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/LCCB_Ryoshu.jpg", 
+        quote: "Ryōshū. I.A.L. Hm? This isn't standard comms protocol? Stop using acronyms? What, why? … Because I'm a rookie…? Haah…", 
+        skills: ryoshuskillData.LCCBRyoshu, voiceline: "IDs/Ryoshu/Voicelines/LCCB.ogg", rarity: "ØØ" },
+    { sinner: "Ryōshū", idName: "Liu Assoc. South Section 4", image: "IDs/Ryoshu/LS4_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/LS4_Ryoshu.jpg", 
+        quote: "Hmph. Did you wish to witness the art performed in a training room?", skills: ryoshuskillData.LiuRyoshu, voiceline: "IDs/Ryoshu/Voicelines/Liu.ogg", rarity: "ØØ" },
+    { sinner: "Ryōshū", idName: "Seven Assoc. South Section 6", image: "IDs/Ryoshu/SA6_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/SA6_Ryoshu.jpg", 
+        quote: "You... Have you seen the pinnacle of art? I'm here to find it.", skills: ryoshuskillData.SevenRyoshu, voiceline: "IDs/Ryoshu/Voicelines/Seven.wav", rarity: "ØØ" },
+    { sinner: "Ryōshū", idName: "Blade of the House of Spiders", image: "IDs/Ryoshu/HoS_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/HoS_Ryoshu.jpg", 
+        quote: "I will take you to hell. If that's what it takes to burn and cut through the Nursefathers... Then yes, I will gladly become a bottomless pit for you to cast down every ugly secret you would rather forget and never see surfaced again. So come. There in its depths... await all of me from every path, waiting with our blades drawn to cut down all of you.", 
+        skills: ryoshuskillData.HoSRyoshu, voiceline: "IDs/Ryoshu/Voicelines/HoS.wav", rarity: "ØØØ" },
+    { sinner: "Ryōshū", idName: "Drifting Blade of Hongyuan", image: "IDs/Ryoshu/Hongyuan_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Hongyuan_Ryoshu.jpg", 
+        quote: "What else remains for me to cut down when I have already failed the one I was meant to protect? Do you know? ... Right, I didn't think so.", 
+        skills: ryoshuskillData.HongyuanRyoshu, voiceline: "IDs/Ryoshu/Voicelines/Hongyuan.wav", rarity: "ØØØ" },
+    { sinner: "Ryōshū", idName: "Edgar Family Chief Butler", image: "IDs/Ryoshu/Edgar_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Edgar_Ryoshu.jpg", 
+        quote: "S.P.D. You call yourself a Butler? I'll demonstrate, so just shut up and watch. It's all about the Speed, Precision, and Decisiveness...", 
+        skills: ryoshuskillData.ButlerRyoshu, voiceline: "IDs/Ryoshu/Voicelines/Butler.ogg", rarity: "ØØØ" },
+    { sinner: "Ryōshū", idName: "Heishou Pack - Mao Branch", image: "IDs/Ryoshu/Heishou_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Heishou_Ryoshu.jpg", 
+        quote: "I still have some time... to finish smoking this L.C.", skills: ryoshuskillData.HeishouRyoshu, voiceline: "IDs/Ryoshu/Voicelines/Heishou.wav", rarity: "ØØØ" },
+    { sinner: "Ryōshū", idName: "Kurokumo Clan Wakashu", image: "IDs/Ryoshu/Kurokumo_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Kurokumo_Ryoshu.jpg", 
+        quote: "If it gets in my way... not even the shadows are safe from my blade.", skills: ryoshuskillData.KurokumoRyoshu, voiceline: "IDs/Ryoshu/Voicelines/Kurokumo.wav", rarity: "ØØØ" },
+    { sinner: "Ryōshū", idName: "Lobotomy E.G.O::Faint Aroma & Solitude", image: "IDs/Ryoshu/Faint_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Faint_Ryoshu.jpg", 
+        quote: "... To think that the fairy tale would wither into such an anticlimactic ending. Hah. Should've spared myself the trouble of hearing it out.", 
+        skills: ryoshuskillData.FASRyoshu, voiceline: "IDs/Ryoshu/Voicelines/FAS.wav", rarity: "ØØØ" },
+    { sinner: "Ryōshū", idName: "Lobotomy E.G.O::Red Eyes & Penitence", image: "IDs/Ryoshu/Red_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/Red_Ryoshu.jpg", 
+        quote: "I like thi snew look in your eyes. You've finally understood that I am *not* your prey.", skills: ryoshuskillData.REPRyoshu, voiceline: "IDs/Ryoshu/Voicelines/REP.ogg", rarity: "ØØØ" },
+    { sinner: "Ryōshū", idName: "N Corp. E.G.O::Contempy, Awe", image: "IDs/Ryoshu/NCorp_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/NCorp_Ryoshu.jpg", 
+        quote: "Why don't you just die standing up? The freshness of your hideous gaze is... decaying by the second.", skills: ryoshuskillData.NCorpRyoshu, voiceline: "IDs/Ryoshu/Voicelines/NCorp.wav", rarity: "ØØØ" },
+    { sinner: "Ryōshū", idName: "R.B. Chef Cuisine", image: "IDs/Ryoshu/RB_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/RB_Ryoshu.jpg", 
+        quote: "You here? Want a pie to snack on?", skills: ryoshuskillData.ChefRyoshu, voiceline: "IDs/Ryoshu/Voicelines/Chef.wav", rarity: "ØØØ" },
+    { sinner: "Ryōshū", idName: "W Corp. L3 Cleanup Agent", image:"IDs/Ryoshu/WCorp_Ryoshu.webp", portrait: "IDs/Ryoshu/Portraits/WCorp_Ryoshu.jpg", 
+        quote: "Absurd. Can't believe I'm relegated to B.S.", skills: ryoshuskillData.WCorpRyoshu, voiceline: "IDs/Ryoshu/Voicelines/WCorp.wav", rarity: "ØØØ" }
+    // { sinner: "Ryōshū", idName: "", image: "IDs/Ryoshu/_Ryoshu.webp", portrait: "IDs/Ryoshу/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 
 export const meursaultIDs: SinnerID[] = [
