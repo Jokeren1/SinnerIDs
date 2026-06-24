@@ -3,6 +3,14 @@ import { yiSangskillData } from "./SkillData/yiSang.js";
 import { faustskillData } from "./SkillData/Faust.js";
 import { donskillData } from "./SkillData/Don.js";
 import { ryoshuskillData } from "./SkillData/Ryoshu.js";
+import { meursaultskillData } from "./SkillData/Meursault.js";
+import { hongluskillData } from "./SkillData/HongLu.js";
+import { heathcliffskillData } from "./SkillData/Heathcliff.js";
+import { ishmaelskillData } from "./SkillData/Ishmael.js";
+import { rodionskillData } from "./SkillData/Rodion.js";
+import { sinclairskillData } from "./SkillData/Sinclair.js";
+import { outisskillData } from "./SkillData/Outis.js";
+import { gregorskillData } from "./SkillData/Gregor.js";
 
 export const yiSangIDs: SinnerID[] = [
     { sinner: "Yi Sang", idName: "LCB Sinner", image: "IDs/YiSang/LCB_Yi_Sang.webp", portrait: "IDs/YiSang/Portraits/LCB_Yi_Sang.jpg", 
