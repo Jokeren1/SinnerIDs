@@ -172,21 +172,40 @@ export const ryoshuIDs: SinnerID[] = [
 ];
 
 export const meursaultIDs: SinnerID[] = [
-    { sinner: "Meursault", idName: "LCB Sinner", image: "IDs/Meursault/LCB_Meursault.webp", portrait: "IDs/Meursault/Portraits/LCB_Meursault.jpg", rarity: "Ø" },
-    { sinner: "Meursault", idName: "Dead Rabbits Boss", image: "IDs/Meursault/Dead_Meursault.webp", portrait: "IDs/Meursault/Portraits/Dead_Meursault.jpg", rarity: "ØØ" },
-    { sinner: "Meursault", idName: "Liu Assoc, South Section 6", image: "IDs/Meursault/Liu_Meursault.webp", portrait: "IDs/Meursault/Portraits/Liu_Meursault.jpg", rarity: "ØØ" },
-    { sinner: "Meursault", idName: "The Middle Little Brother", image: "IDs/Meursault/Middle_Meursault.webp", portrait: "IDs/Meursault/Portraits/Middle_Meursault.jpg", rarity: "ØØ" },
-    { sinner: "Meursault", idName: "Rosespanner Workshop Fixer", image: "IDs/Meursault/Rosespanner_Meursault.webp", portrait: "IDs/Meursault/Portraits/Rosespanner_Meursault.jpg", rarity: "ØØ" },
-    { sinner: "Meursault", idName: "Blade Lineage Mentor", image: "IDs/Meursault/BL_Meursault.webp", portrait: "IDs/Meursault/Portraits/BL_Meursault.jpg", rarity: "ØØØ" },
-    { sinner: "Meursault", idName: "Cinq Assoc. West Section 3", image: "IDs/Meursault/Cinq_Meursault.webp", portrait: "IDs/Meursault/Portraits/Cinq_Meursault.jpg", rarity: "ØØØ" },
-    { sinner: "Meursault", idName: "Dieci Assoc. South Section 4", image: "IDs/Meursault/Dieci_Meursault.webp", portrait: "IDs/Meursault/Portraits/Dieci_Meursault.jpg", rarity: "ØØØ" },
-    { sinner: "Meursault", idName: "Lobotomy E.G.O::Hornet 【Alteration】 ", image: "IDs/Meursault/Hornet_Meursault.webp", portrait: "IDs/Meursault/Portraits/Hornet_Meursault.jpg", rarity: "ØØØ" },
-    { sinner: "Meursault", idName: "N Corp. Großhammer", image: "IDs/Meursault/NCorp_Meursault.webp", portrait: "IDs/Meursault/Portraits/NCorp_Meursault.jpg", rarity: "ØØØ" },
-    { sinner: "Meursault", idName: "The Prince of La Manchaland", image: "IDs/Meursault/Prince_Meursault.webp", portrait: "IDs/Meursault/Portraits/Prince_Meursault.jpg", rarity: "ØØØ" },
-    { sinner: "Meursault", idName: "R Corp. 4th Pack Rhino Meursault", image: "IDs/Meursault/RCorp_Meursault.webp", portrait: "IDs/Meursault/Portraits/RCorp_Meursault.jpg", rarity: "ØØØ" },
-    { sinner: "Meursault", idName: "The Ring Fauvist Student", image: "IDs/Meursault/Ring_Meursault.webp", portrait: "IDs/Meursault/Portraits/Ring_Meursault.jpg", rarity: "ØØØ" },
-    { sinner: "Meursault", idName: "The Thumb East Capo IIII", image: "IDs/Meursault/Thumb_Meursault.webp", portrait: "IDs/Meursault/Portraits/Thumb_Meursault.jpg", rarity: "ØØØ" },
-    { sinner: "Meursault", idName: "W Corp. L3 Cleanup Agent", image: "IDs/Meursault/WCorp_Meursault.webp", portrait: "IDs/Meursault/Portraits/WCorp_Meursault.jpg", rarity: "ØØØ" }
+    { sinner: "Meursault", idName: "LCB Sinner", image: "IDs/Meursault/LCB_Meursault.webp", portrait: "IDs/Meursault/Portraits/LCB_Meursault.jpg", 
+        quote: "Meursault. Please refer to me as such, Manager.", skills: meursaultskillData.LCBMeursault, voiceline: "IDs/Meursault/Voicelines/LCB.wav", rarity: "Ø" },
+    { sinner: "Meursault", idName: "Dead Rabbits Boss", image: "IDs/Meursault/Dead_Meursault.webp", portrait: "IDs/Meursault/Portraits/Dead_Meursault.jpg", 
+        quote: "... I was not expecting any guests on such a drizzling day. What are you, a hound drenched in alcohol?", 
+        skills: meursaultskillData.DeadMeursault, voiceline: "IDs/Meursault/Voicelines/Dead.ogg", rarity: "ØØ" },
+    { sinner: "Meursault", idName: "Liu Assoc, South Section 6", image: "IDs/Meursault/Liu_Meursault.webp", portrait: "IDs/Meursault/Portraits/Liu_Meursault.jpg", 
+        quote: "If it is fire you need, then I will provide it.", skills: meursaultskillData.LiuMeursault, voiceline: "IDs/Meursault/Voicelines/Liu.wav", rarity: "ØØ" },
+    { sinner: "Meursault", idName: "The Middle Little Brother", image: "IDs/Meursault/Middle_Meursault.webp", portrait: "IDs/Meursault/Portraits/Middle_Meursault.jpg", 
+        quote: "I am Meursault. I aid the Big Brother in his endeavors. That is all.", skills: meursaultskillData.MiddleMeursault, voiceline: "IDs/Meursault/Voicelines/Middle.ogg", rarity: "ØØ" },
+    { sinner: "Meursault", idName: "Rosespanner Workshop Fixer", image: "IDs/Meursault/Rosespanner_Meursault.webp", portrait: "IDs/Meursault/Portraits/Rosespanner_Meursault.jpg", 
+        quote: "Hm... You can place new assignments on the left- Ah, you called for me.", skills: meursaultskillData.RosespannerMeursault, voiceline: "IDs/Meursault/Voicelines/Rosespanner.wav", rarity: "ØØ" },
+    { sinner: "Meursault", idName: "Blade Lineage Mentor", image: "IDs/Meursault/BL_Meursault.webp", portrait: "IDs/Meursault/Portraits/BL_Meursault.jpg", 
+        quote: "We are not placing our stones here, then? Mm, then the tides drive us to resign.", skills: meursaultskillData.BladeMeursault, voiceline: "IDs/Meursault/Voicelines/BL.ogg", rarity: "ØØØ" },
+    { sinner: "Meursault", idName: "Cinq Assoc. West Section 3", image: "IDs/Meursault/Cinq_Meursault.webp", portrait: "IDs/Meursault/Portraits/Cinq_Meursault.jpg", 
+        quote: "Today's interview ends here. Please refer any further questions to the Cinq Association West's Public Relations Department.", 
+        skills: meursaultskillData.CinqMeursault, voiceline: "IDs/Meursault/Voicelines/Cinq.ogg", rarity: "ØØØ" },
+    { sinner: "Meursault", idName: "Dieci Assoc. South Section 4", image: "IDs/Meursault/Dieci_Meursault.webp", portrait: "IDs/Meursault/Portraits/Dieci_Meursault.jpg", 
+        quote: "Mm, good. No one is absent from tonight's late night studies session. Remember not only to refill what you have burned out but als to add new knowledge into your repositories.", 
+        skills: meursaultskillData.DieciMeursault, voiceline: "IDs/Meursault/Voicelines/Dieci.ogg", rarity: "ØØØ" },
+    { sinner: "Meursault", idName: "Lobotomy E.G.O::Hornet 【Alteration】 ", image: "IDs/Meursault/Hornet_Meursault.webp", portrait: "IDs/Meursault/Portraits/Hornet_Meursault.jpg", 
+        quote: "Confirming Work Initiation Sequences... complete. Initiatin 28th Insight Work on Subject T-04-50.", skills: meursaultskillData.HornetMeursault, voiceline: "IDs/Meursault/Voicelines/Hornet.wav", rarity: "ØØØ" },
+    { sinner: "Meursault", idName: "N Corp. Großhammer", image: "IDs/Meursault/NCorp_Meursault.webp", portrait: "IDs/Meursault/Portraits/NCorp_Meursault.jpg", 
+        quote: "Here is the hammer of the One Who Grips.", skills: meursaultskillData.NCorpMeursault, voiceline: "IDs/Meursault/Voicelines/NCorp.wav", rarity: "ØØØ" },
+    { sinner: "Meursault", idName: "The Prince of La Manchaland", image: "IDs/Meursault/Prince_Meursault.webp", portrait: "IDs/Meursault/Portraits/Prince_Meursault.jpg", 
+        quote: "A defeated kingdom has no place for a prince... This, he must rise to the occasion and crown himself its monarch.", skills: meursaultskillData.PrinceMeursault, voiceline: "IDs/Meursault/Voicelines/Prince.wav", rarity: "ØØØ" },
+    { sinner: "Meursault", idName: "R Corp. 4th Pack Rhino Meursault", image: "IDs/Meursault/RCorp_Meursault.webp", portrait: "IDs/Meursault/Portraits/RCorp_Meursault.jpg", 
+        quote: "I'm ready. Let me take the vanguard.", skills: meursaultskillData.RCorpMeursault, voiceline: "IDs/Meursault/Voicelines/RCorp.wav", rarity: "ØØØ" },
+    { sinner: "Meursault", idName: "The Ring Fauvist Student", image: "IDs/Meursault/Ring_Meursault.webp", portrait: "IDs/Meursault/Portraits/Ring_Meursault.jpg", 
+        quote: "Prioritize the rawness of the medium over functionality, apply the bonding pigment in a way that accentuates the cadaveric spasm- Understood, Docent. The impressions highlighted in your feedback will all be addressed.", 
+        skills: meursaultskillData.RingMeursault, voiceline: "IDs/Meursault/Voicelines/Ring.wav", rarity: "ØØØ" },
+    { sinner: "Meursault", idName: "The Thumb East Capo IIII", image: "IDs/Meursault/Thumb_Meursault.webp", portrait: "IDs/Meursault/Portraits/Thumb_Meursault.jpg", 
+        quote: "Think it over three times, hard, before talking to me. I have ripped out enough tongues today.", skills: meursaultskillData.ThumbMeursault, voiceline: "IDs/Meursault/Voicelines/Thumb.wav", rarity: "ØØØ" },
+    { sinner: "Meursault", idName: "W Corp. L3 Cleanup Agent", image: "IDs/Meursault/WCorp_Meursault.webp", portrait: "IDs/Meursault/Portraits/WCorp_Meursault.jpg", 
+        quote: "Tell me your destination, and I'll guide you there.", skills: meursaultskillData.WCorpMeursault, voiceline: "IDs/Meursault/Voicelines/WCorp.wav", rarity: "ØØØ" }
     // { sinner: "Meursault", idName: "", image: "IDs/Meursault/_Meursault.webp", portrait: "IDs/Meursault/Portraits/", quote: "",voiceline: "", rarity: "ØØØ" } For future use
 ];
 
@@ -217,6 +236,7 @@ export const heathcliffIDs: SinnerID[] = [
     { sinner: "Heathcliff", idName: "Shi Assoc. South Section 5", image: "IDs/Heathcliff/Shi_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Shi_Heathcliff.jpg", rarity: "ØØ" },
     { sinner: "Heathcliff", idName: "Full-Stop Office Fixer", image: "IDs/Heathcliff/FullStop_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/FullStop_Heathcliff.jpg", rarity: "ØØØ" },
     { sinner: "Heathcliff", idName: "Heishou Pack - You Branch Adept", image: "IDs/Heathcliff/Heishou_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Heishou_Heathcliff.jpg", rarity: "ØØØ" },
+    { sinner: "Heathcliff", idName: "The House of Spiders: The Thumb Apprentice", image: "IDs/Heathcliff/Thumb_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Thumb_Heathcliff.jpg", quote: "", voiceline: "", rarity: "ØØØ" },
     { sinner: "Heathcliff", idName: "Kurokumo Clan Wakashu", image: "IDs/Heathcliff/Kurokumo_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Kurokumo_Heathcliff.jpg", rarity: "ØØØ" },
     { sinner: "Heathcliff", idName: "Lobotomy E.G.O::Sunshower", image: "IDs/Heathcliff/Sunshower_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Sunshower_Heathcliff.jpg", rarity: "ØØØ" },
     { sinner: "Heathcliff", idName: "The Middle Big Brother", image: "IDs/Heathcliff/Middle_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Middle_Heathcliff.jpg", rarity: "ØØØ" },
@@ -224,8 +244,7 @@ export const heathcliffIDs: SinnerID[] = [
     { sinner: "Heathcliff", idName: "R Corp. 4th Pack Rabbit", image: "IDs/Heathcliff/RCorp_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/RCorp_Heathcliff.jpg", rarity: "ØØØ" },
     { sinner: "Heathcliff", idName: "W Corp. L4 Cleanup Agent - CCA", image: "IDs/Heathcliff/WCorp_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/WCorp_Heathcliff.jpg", rarity: "ØØØ" },
     { sinner: "Heathcliff", idName: "Wild Hunt", image: "IDs/Heathcliff/Wild_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Wild_Heathcliff.jpg", rarity: "ØØØ" },
-    { sinner: "Heathcliff", idName: "Öufi Assoc. South Section 3", image: "IDs/Heathcliff/Oufi_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Oufi_Heathcliff.jpg", rarity: "ØØØ" }
-    // { sinner: "Heathcliff", idName: "The House of Spiders: The Thumb Apprentice", image: "IDs/Heathcliff/Thumb_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Thumb_Heathcliff.jpg", quote: "", voiceline: "", rarity: "ØØØ" } // When Thumb heathcliff comes out next week 
+    { sinner: "Heathcliff", idName: "Öufi Assoc. South Section 3", image: "IDs/Heathcliff/Oufi_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/Oufi_Heathcliff.jpg", rarity: "ØØØ" }  
     // { sinner: "Heathcliff", idName: "", image: "IDs/Heathcliff/_Heathcliff.webp", portrait: "IDs/Heathcliff/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 
@@ -257,14 +276,14 @@ export const rodionIDs: SinnerID[] = [
     { sinner: "Rodion", idName: "Devyat' Assoc. North Section 3", image: "IDs/Rodion/Devyat_Rodion.webp", portrait: "IDs/Rodion/Portraits/Devyat_Rodion.jpg", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "Dieci Assoc. South Section 4", image: "IDs/Rodion/Dieci_Rodion.webp", portrait: "IDs/Rodion/Portraits/Dieci_Rodion.jpg", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "Heishou Pack - Si Branch", image: "IDs/Rodion/Heishou_Rodion.webp", portrait: "IDs/Rodion/Portraits/Heishou_Rodion.jpg", rarity: "ØØØ" },
+    { sinner: "Rodion", idName: "The House of Spiders: The Thumb Nursefather", image: "IDs/Rodion/Thumb_Rodion.webp", portrait: "IDs/Rodion/Portraits/Thumb_Rodion.jpg", quote: "", voiceline: "", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "Kurokumo Clan Wakashu", image: "IDs/Rodion/Kurokumo_Rodion.webp", portrait: "IDs/Rodion/Portraits/Kurokumo_Rodion.jpg", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "Liu Assoc. South Section 4 Director", image: "IDs/Rodion/Liu_Rodion.webp", portrait: "IDs/Rodion/Portraits/Liu_Rodion.jpg", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "Lobotomy E.G.O::The Sword Sharpened with Tears", image: "IDs/Rodion/KoD_Rodion.webp", portrait: "IDs/Rodion/Portraits/KoD_Rodion.jpg", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "The Princess of La Manchaland", image: "IDs/Rodion/Princess_Rodion.webp", portrait: "IDs/Rodion/Portraits/Princess_Rodion.jpg", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "R Corp. 4th Pack Reindeer", image: "IDs/Rodion/RCorp_Rodion.webp", portrait: "IDs/Rodion/Portraits/RCorp_Rodion.jpg", rarity: "ØØØ" },
     { sinner: "Rodion", idName: "The Ring Fauvist Docent", image: "IDs/Rodion/Ring_Rodion.webp", portrait: "IDs/Rodion/Portraits/Ring_Rodion.jpg", rarity: "ØØØ" },
-    { sinner: "Rodion", idName: "Rosespanner Workshop Rep", image: "IDs/Rodion/Rosespanner_Rodion.webp", portrait: "IDs/Rodion/Portraits/Rosespanner_Rodion.jpg", rarity: "ØØØ" }
-    // { sinner: "Rodion", idName: "The House of Spiders: The Thumb Nursefather", image: "IDs/Rodion/Thumb_Rodion.webp", portrait: "IDs/Rodion/Portraits/Thumb_Rodion.jpg", quote: "", voiceline: "", rarity: "ØØØ" } When Thumb Rodion comes out next week
+    { sinner: "Rodion", idName: "Rosespanner Workshop Rep", image: "IDs/Rodion/Rosespanner_Rodion.webp", portrait: "IDs/Rodion/Portraits/Rosespanner_Rodion.jpg", rarity: "ØØØ" } 
     // { sinner: "Rodion", idName: "", image: "IDs/Rodion/_Rodion.webp", portrait: "IDs/Rodion/Portraits/", quote: "", voiceline: "", rarity: "ØØØ" } For future use
 ];
 

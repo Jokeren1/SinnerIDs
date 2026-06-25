@@ -13,6 +13,6 @@ export interface SinnerID {
 
 export interface Skill {
     skillName: string;
-    icon?: string;
+    icon: string;
     skillNum: string;
 }
