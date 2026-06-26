@@ -2,16 +2,16 @@ import type { Skill } from "../type.js";
 
 export const ishmaelskillData = {
     LCBIshmael: [
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
+        { skillName: "Loggerhead", icon: "IDs/Ishmael/Icons/LCB/Skill1.webp", skillNum: "Skill 1" },
+        { skillName: "Slide", icon: "IDs/Ishmael/Icons/LCB/Skill2.webp", skillNum: "Skill 2" },
+        { skillName: "Shield Bash", icon: "IDs/Ishmael/Icons/LCB/Skill3.webp", skillNum: "Skill 3" },
+        { skillName: "Guard", icon: "IDs/Ishmael/Icons/LCB/Defense.webp", skillNum: "Defense" }
     ] satisfies Skill[],
     ButlerIshmael: [
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
+        { skillName: "Sweeping Redirection", icon: "IDs/Ishmael/Icons/Butler/Skill1.webp", skillNum: "Skill 1" },
+        { skillName: "Housekeeping", icon: "IDs/Ishmael/Icons/Butler/Skill2.webp", skillNum: "Skill 2" },
+        { skillName: "Restraining Technique", icon: "IDs/Ishmael/Icons/Butler/Skill3.webp", skillNum: "Skill 3" },
+        { skillName: "Evade", icon: "IDs/Ishmael/Icons/Butler/Defense.webp", skillNum: "Defense" }
     ] satisfies Skill[],
     LCCBIshmael: [
         { skillName: "", icon: "", skillNum: "" },

@@ -290,9 +290,12 @@ export const heathcliffIDs: SinnerID[] = [
 ];
 
 export const ishmaelIDs: SinnerID[] = [
-    { sinner: "Ishmael", idName: "LCB Sinner", image: "IDs/Ishmael/LCB_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/LCB_Ishmael.jpg", rarity: "Ø" },
-    { sinner: "Ishmael", idName: "Edgar Family Butler", image: "IDs/Ishmael/Edgar_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/Edgar_Ishmael.jpg", rarity: "ØØ" },
-    { sinner: "Ishmael", idName: "LCCB Assistant Manager", image: "IDs/Ishmael/LCCB_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/LCCB_Ishmael.jpg", rarity: "ØØ" },
+    { sinner: "Ishmael", idName: "LCB Sinner", image: "IDs/Ishmael/LCB_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/LCB_Ishmael.jpg", 
+        quote: "Call me Ishmael, if you please.", skills: ishmaelskillData.LCBIshmael, voiceline: "IDs/Ishmael/Voicelines/LCB.wav", rarity: "Ø" },
+    { sinner: "Ishmael", idName: "Edgar Family Butler", image: "IDs/Ishmael/Edgar_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/Edgar_Ishmael.jpg", 
+        quote: "Oh, there's some dust left here. Remember. Our Master has respiratory issues, so... No, I'll do it myself.", skills: ishmaelskillData.ButlerIshmael, voiceline: "IDs/Ishmael/Voicelines/Butler.ogg", rarity: "ØØ" },
+    { sinner: "Ishmael", idName: "LCCB Assistant Manager", image: "IDs/Ishmael/LCCB_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/LCCB_Ishmael.jpg", 
+        quote: "Ishmael speaking. Is there anything I can help you with?", skills: ishmaelskillData.LCCBIshmael, voiceline: "IDs/Ishmael/Voicelines/LCCB.wav", rarity: "ØØ" },
     { sinner: "Ishmael", idName: "Lobotomy E.G.O::Sloshing", image: "IDs/Ishmael/Sloshing_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/Sloshing_Ishmael.jpg", rarity: "ØØ" },
     { sinner: "Ishmael", idName: "Shi Assoc. South Section 5", image: "IDs/Ishmael/Shi_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/Shi_Ishmael.jpg", rarity: "ØØ" },
     { sinner: "Ishmael", idName: "Family Heirarch Candidate", image: "IDs/Ishmael/Family_Ishmael.webp", portrait: "IDs/Ishmael/Portraits/Family_Ishmael.jpg", rarity: "ØØØ" },

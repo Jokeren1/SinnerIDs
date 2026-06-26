@@ -49,11 +49,11 @@ export const rodionskillData = {
         { skillName: "", icon: "", skillNum: "" },
         { skillName: "", icon: "", skillNum: "" },
     ] satisfies Skill[],
-    ThumbRodion: [
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
+    ThumbRodion: [ // Replace the skill icons with the actual ones when they are released
+        { skillName: "", icon: "Concept/WIP.png", skillNum: "" },
+        { skillName: "", icon: "Concept/WIP.png", skillNum: "" },
+        { skillName: "", icon: "Concept/WIP.png", skillNum: "" },
+        { skillName: "", icon: "Concept/WIP.png", skillNum: "" },
     ] satisfies Skill[],
     KurokumoRodion: [
         { skillName: "", icon: "", skillNum: "" },
