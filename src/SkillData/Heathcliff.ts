@@ -46,13 +46,13 @@ export const heathcliffskillData = {
         { skillName: "Rooster's Rampaging Blades Under the Ensanguined Heaven [血天下雞舞亂刀]", icon: "IDs/Heathcliff/Icons/Heishou/Skill3_2.webp", skillNum: "Skill 3-2" },
         { skillName: "More Grub for Us", icon: "IDs/Heathcliff/Icons/Heishou/Defense.webp", skillNum: "Defense" }
     ] satisfies Skill[],
-    ThumbHeathcliff: [ // Replace placeholder icons with actual skill icons when they are released
-        { skillName: "La Soada di Palermo", icon: "Concept/WIP.png", skillNum: "Skill 1" },
-        { skillName: "Colpi Sottani", icon: "Concept/WIP.png", skillNum: "Skill 2" },
-        { skillName: "Il Cacciatore", icon: "Concept/WIP.png", skillNum: "Skill 3" },
-        { skillName: "Sezionatura di Cervo", icon: "Concept/WIP.png", skillNum: "Skill 3-2" },
-        { skillName: "Measuring Blade Reach", icon: "Concept/WIP.png", skillNum: "Defense" },
-        { skillName: "I Will Protect.", icon: "Concept/WIP.png", skillNum: "Defense 2" }
+    ThumbHeathcliff: [
+        { skillName: "La Soada di Palermo", icon: "IDs/Heathcliff/Icons/Thumb/Skill1.webp", skillNum: "Skill 1" },
+        { skillName: "Colpi Sottani", icon: "IDs/Heathcliff/Icons/Thumb/Skill2.webp", skillNum: "Skill 2" },
+        { skillName: "Il Cacciatore", icon: "IDs/Heathcliff/Icons/Thumb/Skill3.webp", skillNum: "Skill 3" },
+        { skillName: "Sezionatura di Cervo", icon: "IDs/Heathcliff/Icons/Thumb/Skill3_2.webp", skillNum: "Skill 3-2" },
+        { skillName: "Measuring Blade Reach", icon: "IDs/Heathcliff/Icons/Thumb/Defense.webp", skillNum: "Defense" },
+        { skillName: "I Will Protect.", icon: "IDs/Heathcliff/Icons/Thumb/Defense2.webp", skillNum: "Defense 2" }
     ] satisfies Skill[],
     KurokumoHeathcliff: [
         { skillName: "Lenticular Rend", icon: "IDs/Heathcliff/Icons/Kurokumo/Skill1.webp", skillNum: "Skill 1" },
