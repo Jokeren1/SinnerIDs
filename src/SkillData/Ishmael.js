@@ -71,27 +71,27 @@ export const ishmaelskillData = {
         { skillName: "Counter", icon: "IDs/Ishmael/Icons/Liu/Defense.webp", skillNum: "Defense" }
     ],
     MolarIshmael: [
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
+        { skillName: "Ready to Crush", icon: "IDs/Ishmael/Icons/Molar/Skill1.webp", skillNum: "Skill 1" },
+        { skillName: "Explosive Blast", icon: "IDs/Ishmael/Icons/Molar/Skill2.webp", skillNum: "Skill 2" },
+        { skillName: "Risky Judgement", icon: "IDs/Ishmael/Icons/Molar/Skill3.webp", skillNum: "Skill 3" },
+        { skillName: "Nimble Steps", icon: "IDs/Ishmael/Icons/Molar/Defense.webp", skillNum: "Defense" }
     ],
     PequodIshmael: [
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
+        { skillName: "To Me!", icon: "IDs/Ishmael/Icons/Pequod/Skill1.webp", skillNum: "Skill 1" },
+        { skillName: "Purse Them to the End!", icon: "IDs/Ishmael/Icons/Pequod/Skill2.webp", skillNum: "Skill 2" },
+        { skillName: "Harpoon of Obsession", icon: "IDs/Ishmael/Icons/Pequod/Skill3.webp", skillNum: "Skill 3" },
+        { skillName: "Do Not Fear", icon: "IDs/Ishmael/Icons/Pequod/Defense.webp", skillNum: "Defense" }
     ],
     RcorpIshmael: [
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
+        { skillName: "Mind Strike", icon: "IDs/Ishmael/Icons/Rcorp/Skill1.webp", skillNum: "Skill 1" },
+        { skillName: "Flaying Surge", icon: "IDs/Ishmael/Icons/Rcorp/Skill2.webp", skillNum: "Skill 2" },
+        { skillName: "Mind Whip", icon: "IDs/Ishmael/Icons/Rcorp/Skill3.webp", skillNum: "Skill 3" },
+        { skillName: "Evade", icon: "IDs/Ishmael/Icons/Rcorp/Defense.webp", skillNum: "Defense" }
     ],
     ZweiIshmael: [
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
-        { skillName: "", icon: "", skillNum: "" },
+        { skillName: "Zwei Knight's Greatsword Form", icon: "IDs/Ishmael/Icons/Zwei/Skill1.webp", skillNum: "Skill 1" },
+        { skillName: "Can't Let You Through.", icon: "IDs/Ishmael/Icons/Zwei/Skill2.webp", skillNum: "Skill 2" },
+        { skillName: "Ward", icon: "IDs/Ishmael/Icons/Zwei/Skill3.webp", skillNum: "Skill 3" },
+        { skillName: "Your Shield", icon: "IDs/Ishmael/Icons/Zwei/Defense.webp", skillNum: "Defense" }
     ]
 };

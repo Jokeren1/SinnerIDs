@@ -86,6 +86,26 @@ function viewIDDetails(id) {
     idMenu.hidden = true;
     idViewer.hidden = false;
     const fullArt = document.getElementById("FullArt");
+    const idNameText = document.getElementById("idNameText");
+    const quoteText = document.getElementById("quoteText");
+    const skillGrid = document.getElementById("skillGrid");
+    const voiceline = document.getElementById("voiceline");
     fullArt.src = id.image;
     fullArt.alt = id.idName;
+    idNameText.textContent = id.idName;
+    quoteText.textContent = id.quote ?? ""; // Fix later after finalizing quotes for all IDs
+    skillGrid.innerHTML = "";
+    for (const skill of id.skills ?? []) { // Fix later after finalizing skills for all IDs
+        const skillCard = document.createElement("div");
+        const skillIcon = document.createElement("img");
+        skillIcon.src = skill.icon ?? ""; // Fix later after finalizing icons for all skills
+        skillIcon.alt = skill.skillName;
+        const skillName = document.createElement("p");
+        skillName.textContent = skill.skillName;
+        skillCard.appendChild(skillIcon);
+        skillCard.appendChild(skillName);
+        skillGrid.appendChild(skillCard);
+    }
+    voiceline.src = id.voiceline ?? ""; // Fix later after finalizing voicelines for all IDs
+    voiceline.play();
 }

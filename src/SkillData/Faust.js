@@ -35,6 +35,15 @@ export const faustskillData = {
         { skillName: "Red Plum Blossoms Scatter", icon: "IDs/Faust/Icons/Blade/Skill3.webp", skillNum: "Skill 3" },
         { skillName: "Redirect", icon: "IDs/Faust/Icons/Blade/Defense.webp", skillNum: "Defense" }
     ],
+    DawnFaust: [
+        { skillName: "Flash of Sunup", icon: "Concept/WIP.png", skillNum: "Skill 1" },
+        { skillName: "Seconded Offensive", icon: "Concept/WIP.png", skillNum: "Skill 1-2" },
+        { skillName: "Butterfly Slash", icon: "Concept/WIP.png", skillNum: "Skill 2" },
+        { skillName: "Eject", icon: "Concept/WIP.png", skillNum: "Skill 3" },
+        { skillName: "Eject - High Noon", icon: "Concept/WIP.png", skillNum: "Skill 3-2" },
+        { skillName: "Stigmatize", icon: "Concept/WIP.png", skillNum: "Defense" },
+        { skillName: "Dismemberment at High Noon", icon: "Concept/WIP.png", skillNum: "Defense 2" }
+    ],
     HeishouFaust: [
         { skillName: "Blinkstep", icon: "IDs/Faust/Icons/Heishou/Skill1.webp", skillNum: "Skill 1" },
         { skillName: "Clearing the Path, My Lord.", icon: "IDs/Faust/Icons/Heishou/Skill2.webp", skillNum: "Skill 2" },
