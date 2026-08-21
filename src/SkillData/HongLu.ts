@@ -37,6 +37,12 @@ export const hongluskillData = {
         { skillName: "Deploy Charge Barrier", icon: "IDs/HongLu/Icons/WCorp/Skill3.webp", skillNum: "Skill 3" },
         { skillName: "Guard", icon: "IDs/HongLu/Icons/WCorp/Defense.webp", skillNum: "Defense" }
     ] satisfies Skill[],
+    CinqHongLu: [ // Replace placeholder skills with actual skills when available
+        { skillName: "Fa Jin", icon: "Concept/WIP.png", skillNum: "Skill 1" },
+        { skillName: "Virescent Flame Palm", icon: "Concept/WIP.png", skillNum: "Skill 2" },
+        { skillName: "Take the Hit to the Last Blow, Please?", icon: "Concept/WIP.png", skillNum: "Skill 3" },
+        { skillName: "Light as a Tuft of Cloud", icon: "Concept/WIP.png", skillNum: "Defense" }
+    ] satisfies Skill[],
     DieciHongLu: [
         { skillName: "Expend Knowledge", icon: "IDs/HongLu/Icons/Dieci/Skill1.webp", skillNum: "Skill 1" },
         { skillName: "Unveil", icon: "IDs/HongLu/Icons/Dieci/Skill2.webp", skillNum: "Skill 2" },
